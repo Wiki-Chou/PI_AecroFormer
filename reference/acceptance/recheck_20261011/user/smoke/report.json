@@ -1,0 +1,206 @@
+{
+  "status": "passed",
+  "scope": "bounded smoke subset",
+  "n_observations": 4,
+  "mc_samples_per_model": 16,
+  "training_executed": false,
+  "calibration_executed": false,
+  "lut_rebuilt": false,
+  "device": "cpu",
+  "full_synthetic_evaluation_executed": false,
+  "metrics": [
+    {
+      "mode": "FAST",
+      "model_seed": null,
+      "aggregation": "profile-fast",
+      "n": 4,
+      "re_MARE_pct": 26.178534704552664,
+      "re_MRE_pct": -26.178534704552664,
+      "SSA532_MAE": 0.03534038199681838,
+      "SSA532_ME": -0.015015546740614338
+    },
+    {
+      "mode": "ORI",
+      "model_seed": 20260721,
+      "aggregation": "individual",
+      "n": 4,
+      "re_MARE_pct": 10.005955722787297,
+      "re_MRE_pct": -10.005955722787297,
+      "SSA532_MAE": 0.019346999458264763,
+      "SSA532_ME": 0.00732410274990089
+    },
+    {
+      "mode": "ORI",
+      "model_seed": 20260722,
+      "aggregation": "individual",
+      "n": 4,
+      "re_MARE_pct": 8.579802251687216,
+      "re_MRE_pct": -8.579802251687216,
+      "SSA532_MAE": 0.01180227408047943,
+      "SSA532_ME": 0.003895741525621582
+    },
+    {
+      "mode": "ORI",
+      "model_seed": 20260723,
+      "aggregation": "individual",
+      "n": 4,
+      "re_MARE_pct": 8.587945272087694,
+      "re_MRE_pct": -8.587945272087694,
+      "SSA532_MAE": 0.01117977637605469,
+      "SSA532_ME": 0.003966332990934046
+    },
+    {
+      "mode": "ORI",
+      "model_seed": null,
+      "aggregation": "ensemble",
+      "n": 4,
+      "re_MARE_pct": 9.057901082187403,
+      "re_MRE_pct": -9.057901082187403,
+      "SSA532_MAE": 0.014109683304932952,
+      "SSA532_ME": 0.005062059088818849
+    },
+    {
+      "mode": "UNC",
+      "model_seed": 20260721,
+      "aggregation": "individual",
+      "n": 4,
+      "re_MARE_pct": 15.266883168425313,
+      "re_MRE_pct": -15.266883168425313,
+      "SSA532_MAE": 0.01197028926480323,
+      "SSA532_ME": 0.01197028926480323
+    },
+    {
+      "mode": "UNC",
+      "model_seed": 20260722,
+      "aggregation": "individual",
+      "n": 4,
+      "re_MARE_pct": 15.559250861406246,
+      "re_MRE_pct": -15.559250861406246,
+      "SSA532_MAE": 0.012314322150985574,
+      "SSA532_ME": 0.012314322150985574
+    },
+    {
+      "mode": "UNC",
+      "model_seed": 20260723,
+      "aggregation": "individual",
+      "n": 4,
+      "re_MARE_pct": 14.897620342410125,
+      "re_MRE_pct": -14.897620342410125,
+      "SSA532_MAE": 0.015492976564824817,
+      "SSA532_ME": 0.015492976564824817
+    },
+    {
+      "mode": "UNC",
+      "model_seed": null,
+      "aggregation": "ensemble",
+      "n": 4,
+      "re_MARE_pct": 15.24125145741389,
+      "re_MRE_pct": -15.24125145741389,
+      "SSA532_MAE": 0.013259195993537892,
+      "SSA532_ME": 0.013259195993537892
+    }
+  ],
+  "metadata": {
+    "FAST": {
+      "release_id": "paper_numeric_v1",
+      "mode": "FAST",
+      "model_seeds": [],
+      "device": "cpu",
+      "threads": 2,
+      "workers": 1,
+      "input_order": [
+        "alpha355",
+        "beta355",
+        "alpha532",
+        "beta532",
+        "beta1064"
+      ],
+      "units": {
+        "mr": "1",
+        "mi": "1",
+        "rmed_um": "um",
+        "lnsigma": "1",
+        "D_mode": "um",
+        "sigma": "1",
+        "r_eff": "um",
+        "SSA": "1",
+        "V": "um^3 cm^-3",
+        "N": "cm^-3"
+      },
+      "mc_samples_per_model": 0,
+      "random_seed": 20261020,
+      "fast_rng_reset": "profile",
+      "uncertainty_semantics": "calibrated diagonal parameter distributions with equal seed mixture; derived quantities include forward propagation; excludes collocation/reference errors"
+    },
+    "ORI": {
+      "release_id": "paper_numeric_v1",
+      "mode": "ORI",
+      "model_seeds": [
+        20260721,
+        20260722,
+        20260723
+      ],
+      "device": "cpu",
+      "threads": 2,
+      "workers": 1,
+      "input_order": [
+        "alpha355",
+        "beta355",
+        "alpha532",
+        "beta532",
+        "beta1064"
+      ],
+      "units": {
+        "mr": "1",
+        "mi": "1",
+        "rmed_um": "um",
+        "lnsigma": "1",
+        "D_mode": "um",
+        "sigma": "1",
+        "r_eff": "um",
+        "SSA": "1",
+        "V": "um^3 cm^-3",
+        "N": "cm^-3"
+      },
+      "mc_samples_per_model": 0,
+      "random_seed": 20261020,
+      "fast_rng_reset": "profile",
+      "uncertainty_semantics": "calibrated diagonal parameter distributions with equal seed mixture; derived quantities include forward propagation; excludes collocation/reference errors"
+    },
+    "UNC": {
+      "release_id": "paper_numeric_v1",
+      "mode": "UNC",
+      "model_seeds": [
+        20260721,
+        20260722,
+        20260723
+      ],
+      "device": "cpu",
+      "threads": 2,
+      "workers": 1,
+      "input_order": [
+        "alpha355",
+        "beta355",
+        "alpha532",
+        "beta532",
+        "beta1064"
+      ],
+      "units": {
+        "mr": "1",
+        "mi": "1",
+        "rmed_um": "um",
+        "lnsigma": "1",
+        "D_mode": "um",
+        "sigma": "1",
+        "r_eff": "um",
+        "SSA": "1",
+        "V": "um^3 cm^-3",
+        "N": "cm^-3"
+      },
+      "mc_samples_per_model": 16,
+      "random_seed": 20261020,
+      "fast_rng_reset": "profile",
+      "uncertainty_semantics": "calibrated diagonal parameter distributions with equal seed mixture; derived quantities include forward propagation; excludes collocation/reference errors"
+    }
+  }
+}

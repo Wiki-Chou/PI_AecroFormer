@@ -1,0 +1,4 @@
+﻿mode,device,n_samples,repeats,warmup,total_mean_s,total_median_s,total_std_s,per_sample_mean_ms,throughput_samples_per_s,scope
+FAST,cpu,64,2,1,124.42195204994641,124.42195204994641,0.16790154995396733,1944.0930007804127,0.514378684352329,"x5_to_[mr,mi,D_mode,sigma,r_eff] (no Mie, no N)"
+UNC,cpu,64,2,1,0.001413749996572733,0.001413749996572733,6.0450052842497826e-05,0.022089843696448952,45269.67296562423,"x5_to_[mr,mi,D_mode,sigma,r_eff] (no Mie, no N)"
+UNC,cuda,64,2,1,0.0016505999374203384,0.0016505999374203384,0.00034470000537112355,0.025790624022192787,38773.78070183574,"x5_to_[mr,mi,D_mode,sigma,r_eff] (no Mie, no N)"

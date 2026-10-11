@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "files_checked": 3360,
+  "bytes_checked": 30508239994,
+  "hash_algorithm": "SHA-256/full-file",
+  "failures": [],
+  "original_sources_opened": false,
+  "training_executed": false
+}

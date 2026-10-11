@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "date": "2026-10-11",
+  "device": "cpu",
+  "threads": 2,
+  "workers": 1,
+  "training_executed": false,
+  "calibration_executed": false,
+  "lut_rebuilt": false,
+  "full_evaluation_executed": false,
+  "independent_archives": [
+    "user",
+    "development"
+  ],
+  "asset_hashes_per_archive": 26,
+  "retained_development_files": 3360,
+  "retained_development_bytes": 30508239994,
+  "regression_tests": 11,
+  "original_code_comparisons": 133,
+  "smoke_observations_per_archive": 4,
+  "smoke_mc_samples_per_model": 16,
+  "default_uncertainty_observations_per_archive": 1,
+  "default_mc_samples_per_model": 256,
+  "cross_archive_predictions_and_intervals_max_abs_difference": 0.0,
+  "cross_archive_png_figures_identical": true,
+  "paper_formatted_tables_exact": true,
+  "max_abs_difference_from_frozen_csv": 4.547473508864641e-13,
+  "development_contains_public_content": "Export sources are complete; public root templates are stored under reference."
+}

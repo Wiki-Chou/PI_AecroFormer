@@ -1,0 +1,8 @@
+{
+  "heldout_aggregation": "3 training seeds x 3 independent test seeds; sample std ddof=1",
+  "nasa_aggregation": "3 training seeds on identical NASA observations; sample std ddof=1",
+  "nasa_point_weighting": "all aligned observation levels equally weighted",
+  "lut_nasa_std": "0 by definition because the CSV LUT baseline is deterministic",
+  "missing": [],
+  "generated_at": "2026-07-22T04:35:27.144689+00:00"
+}

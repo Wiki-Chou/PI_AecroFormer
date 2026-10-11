@@ -1,0 +1,710 @@
+{
+  "status": "passed",
+  "scope": {
+    "NASA": 4,
+    "synthetic": 4,
+    "models": 6,
+    "FAST_observations": 2,
+    "FAST_bank": 6291558,
+    "FAST_trees": 500,
+    "default_uncertainty_observations": 1,
+    "MC_draws_per_model": 256
+  },
+  "tolerances": {
+    "parameters": {
+      "atol": 1e-07,
+      "rtol": 1e-06
+    },
+    "same_batch": {
+      "atol": 1e-12,
+      "rtol": 1e-12
+    },
+    "Mie_CPU_JIT": {
+      "atol": 1e-10,
+      "rtol": 1e-09
+    },
+    "FAST": {
+      "atol": 0.0,
+      "rtol": 0.0
+    }
+  },
+  "differences": {
+    "ORI/20260721/parameters": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "ORI/20260721/single_0": {
+      "max_abs": 5.539144642963123e-08,
+      "max_relative": 1.510234199003378e-05,
+      "tolerance": "parameters"
+    },
+    "ORI/20260721/single_4": {
+      "max_abs": 4.3521850734418166e-08,
+      "max_relative": 5.2135127617229773e-05,
+      "tolerance": "parameters"
+    },
+    "ORI/20260721/unit_forward": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "ORI/20260721/SSA": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "ORI/20260721/V": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "ORI/20260721/N": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "ORI/20260722/parameters": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "ORI/20260722/single_0": {
+      "max_abs": 2.3739191307159402e-08,
+      "max_relative": 2.695869575146393e-06,
+      "tolerance": "parameters"
+    },
+    "ORI/20260722/single_4": {
+      "max_abs": 1.4436961404129534e-08,
+      "max_relative": 1.6528500431649444e-08,
+      "tolerance": "parameters"
+    },
+    "ORI/20260722/unit_forward": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "ORI/20260722/SSA": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "ORI/20260722/V": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "ORI/20260722/N": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "ORI/20260723/parameters": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "ORI/20260723/single_0": {
+      "max_abs": 7.913063759801275e-09,
+      "max_relative": 1.9047719216226133e-06,
+      "tolerance": "parameters"
+    },
+    "ORI/20260723/single_4": {
+      "max_abs": 1.9782659427258764e-08,
+      "max_relative": 0.0004502233795805467,
+      "tolerance": "parameters"
+    },
+    "ORI/20260723/unit_forward": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "ORI/20260723/SSA": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "ORI/20260723/V": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "ORI/20260723/N": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "UNC/20260721/parameters": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "UNC/20260721/single_0": {
+      "max_abs": 2.1655441884149695e-08,
+      "max_relative": 6.614431190387458e-06,
+      "tolerance": "parameters"
+    },
+    "UNC/20260721/single_4": {
+      "max_abs": 2.1669659421019727e-08,
+      "max_relative": 1.8858162822021146e-05,
+      "tolerance": "parameters"
+    },
+    "UNC/20260721/unit_forward": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "UNC/20260721/SSA": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "UNC/20260721/V": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "UNC/20260721/N": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "UNC/20260721/raw_std": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "UNC/20260721/calibrated_std": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "UNC/20260721/sampling": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "UNC/20260722/parameters": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "UNC/20260722/single_0": {
+      "max_abs": 1.5826127575113702e-08,
+      "max_relative": 1.1018697247273973e-07,
+      "tolerance": "parameters"
+    },
+    "UNC/20260722/single_4": {
+      "max_abs": 3.2504489128060143e-08,
+      "max_relative": 2.7784371506885636e-05,
+      "tolerance": "parameters"
+    },
+    "UNC/20260722/unit_forward": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "UNC/20260722/SSA": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "UNC/20260722/V": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "UNC/20260722/N": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "UNC/20260722/raw_std": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "UNC/20260722/calibrated_std": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "UNC/20260722/sampling": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "UNC/20260723/parameters": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "UNC/20260723/single_0": {
+      "max_abs": 3.165225509471625e-08,
+      "max_relative": 3.5982323235666347e-06,
+      "tolerance": "parameters"
+    },
+    "UNC/20260723/single_4": {
+      "max_abs": 2.8873922808259067e-08,
+      "max_relative": 2.6386861889407352e-05,
+      "tolerance": "parameters"
+    },
+    "UNC/20260723/unit_forward": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "UNC/20260723/SSA": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "UNC/20260723/V": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "UNC/20260723/N": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "UNC/20260723/raw_std": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "UNC/20260723/calibrated_std": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "UNC/20260723/sampling": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "ORI/ensemble/mr": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "ORI/ensemble/mi": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "ORI/ensemble/rmed_um": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "ORI/ensemble/lnsigma": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "ORI/ensemble/D_mode": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "ORI/ensemble/sigma": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "ORI/ensemble/r_eff": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "ORI/ensemble/SSA": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "ORI/ensemble/V": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "ORI/ensemble/N": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "UNC/ensemble/mr": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "UNC/ensemble/mi": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "UNC/ensemble/rmed_um": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "UNC/ensemble/lnsigma": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "UNC/ensemble/D_mode": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "UNC/ensemble/sigma": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "UNC/ensemble/r_eff": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "UNC/ensemble/SSA": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "UNC/ensemble/V": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "UNC/ensemble/N": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "Mie_CPU_JIT/unit_forward": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "Mie_CPU_JIT"
+    },
+    "Mie_CPU_JIT/SSA": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "Mie_CPU_JIT"
+    },
+    "posterior/mr/std": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "posterior/mr/q16": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "posterior/mr/q84": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "posterior/mr/q025": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "posterior/mr/q975": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "posterior/mi/std": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "posterior/mi/q16": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "posterior/mi/q84": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "posterior/mi/q025": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "posterior/mi/q975": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "posterior/rmed_um/std": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "posterior/rmed_um/q16": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "posterior/rmed_um/q84": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "posterior/rmed_um/q025": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "posterior/rmed_um/q975": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "posterior/lnsigma/std": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "posterior/lnsigma/q16": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "posterior/lnsigma/q84": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "posterior/lnsigma/q025": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "posterior/lnsigma/q975": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "posterior/D_mode/std": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "posterior/D_mode/q16": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "posterior/D_mode/q84": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "posterior/D_mode/q025": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "posterior/D_mode/q975": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "posterior/sigma/std": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "posterior/sigma/q16": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "posterior/sigma/q84": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "posterior/sigma/q025": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "posterior/sigma/q975": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "posterior/r_eff/std": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "posterior/r_eff/q16": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "posterior/r_eff/q84": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "posterior/r_eff/q025": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "posterior/r_eff/q975": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "posterior/SSA/std": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "posterior/SSA/q16": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "posterior/SSA/q84": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "posterior/SSA/q025": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "posterior/SSA/q975": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "posterior/V/std": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "posterior/V/q16": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "posterior/V/q84": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "posterior/V/q025": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "posterior/V/q975": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "posterior/N/std": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "posterior/N/q16": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "posterior/N/q84": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "posterior/N/q025": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "posterior/N/q975": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "same_batch"
+    },
+    "FAST/mr": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "FAST"
+    },
+    "FAST/mi": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "FAST"
+    },
+    "FAST/rmed_um": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "FAST"
+    },
+    "FAST/lnsigma": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "FAST"
+    },
+    "FAST/D_mode": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "FAST"
+    },
+    "FAST/sigma": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "FAST"
+    },
+    "FAST/r_eff": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "FAST"
+    },
+    "FAST/SSA": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "FAST"
+    },
+    "FAST/V": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "FAST"
+    },
+    "FAST/N": {
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "tolerance": "FAST"
+    }
+  },
+  "device": "cpu",
+  "threads": 2,
+  "workers": 1,
+  "training_executed": false,
+  "calibration_executed": false,
+  "lut_rebuilt": false,
+  "original_source_verified": [
+    "models/MHmodels.py",
+    "experiments/factorial_ablation_3x3_v1/evaluate_heldout.py",
+    "experiments/factorial_ablation_3x3_v1/reviewer_additions_v1/profile_figure.py",
+    "portable_retrieval_fast_ori_unc/retrieve.py"
+  ]
+}

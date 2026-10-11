@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-07-24T16:47:41.189240+00:00",
+  "truth_radius": "re_ambient_kappa",
+  "table_iv_truth_radius": "legacy re_ambient (intentionally different)",
+  "profiles": [
+    "CA_20130201_D001",
+    "CA_20130201_D002",
+    "CA_20130201_D003",
+    "CA_20130201_D004",
+    "CA_20130201_D005",
+    "CA_20130201_D006"
+  ],
+  "n_points": 33,
+  "monte_carlo_per_model": 256,
+  "posterior_draws_total_per_observation": 768,
+  "interval_semantics": "calibrated model-predictive uncertainty plus between-seed mixture; no in-situ uncertainty",
+  "model_signatures": {
+    "ORI/20260721": {
+      "path": "G:\\aecroformer_experiments\\factorial_ablation_3x3_v1\\runs\\ORI\\train_seed_20260721\\checkpoints\\best_dynamic_val.pth",
+      "size": 34584075,
+      "mtime_ns": 1784605300766795000,
+      "sample_sha256": "a8c7a73c56ee86a8274d24b40ee6c9eba7838958a56128b6191018fdda26380a"
+    },
+    "UNC/20260721": {
+      "path": "G:\\aecroformer_experiments\\factorial_ablation_3x3_v1\\runs\\BAS_PHY_DYN_UNC\\train_seed_20260721\\checkpoints\\best_dynamic_val.pth",
+      "size": 34624163,
+      "mtime_ns": 1784633614605575000,
+      "sample_sha256": "6b79756cc3aae05c2395b402d8bd8ae5be1dd864fda740564c3bdc2c2cdfaaae"
+    },
+    "ORI/20260722": {
+      "path": "G:\\aecroformer_experiments\\factorial_ablation_3x3_v1\\runs\\ORI\\train_seed_20260722\\checkpoints\\best_dynamic_val.pth",
+      "size": 34584139,
+      "mtime_ns": 1784612409285337100,
+      "sample_sha256": "57804d14f48ecf75315173bfe5e8451a496133cca7e5632476a266ad167231d4"
+    },
+    "UNC/20260722": {
+      "path": "G:\\aecroformer_experiments\\factorial_ablation_3x3_v1\\runs\\BAS_PHY_DYN_UNC\\train_seed_20260722\\checkpoints\\best_dynamic_val.pth",
+      "size": 34624163,
+      "mtime_ns": 1784635490968827800,
+      "sample_sha256": "670b04dce6fcfca36579c592f265f53723b331fa5163a58b2c5a1b290f288a2f"
+    },
+    "ORI/20260723": {
+      "path": "G:\\aecroformer_experiments\\factorial_ablation_3x3_v1\\runs\\ORI\\train_seed_20260723\\checkpoints\\best_dynamic_val.pth",
+      "size": 34584139,
+      "mtime_ns": 1784613559756118200,
+      "sample_sha256": "e44f19aedf1b7e9a79dedb9f3e4557e79455b19f0cbc630d651c34c0c3fb3b2c"
+    },
+    "UNC/20260723": {
+      "path": "G:\\aecroformer_experiments\\factorial_ablation_3x3_v1\\runs\\BAS_PHY_DYN_UNC\\train_seed_20260723\\checkpoints\\best_dynamic_val.pth",
+      "size": 34624163,
+      "mtime_ns": 1784636584797791500,
+      "sample_sha256": "897090b2b72408b0c9d2fefa272e0c2b41441e57be919a07cd1f75de7e8b2b3e"
+    }
+  },
+  "points_outside_display": {
+    "re_q16_below": 0,
+    "re_q84_above": 0,
+    "ssa_q16_below": 15,
+    "ssa_q84_above": 0
+  }
+}

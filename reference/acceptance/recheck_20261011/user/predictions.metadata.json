@@ -1,0 +1,37 @@
+{
+  "release_id": "paper_numeric_v1",
+  "mode": "UNC",
+  "model_seeds": [
+    20260721,
+    20260722,
+    20260723
+  ],
+  "device": "cpu",
+  "threads": 2,
+  "workers": 1,
+  "input_order": [
+    "alpha355",
+    "beta355",
+    "alpha532",
+    "beta532",
+    "beta1064"
+  ],
+  "units": {
+    "mr": "1",
+    "mi": "1",
+    "rmed_um": "um",
+    "lnsigma": "1",
+    "D_mode": "um",
+    "sigma": "1",
+    "r_eff": "um",
+    "SSA": "1",
+    "V": "um^3 cm^-3",
+    "N": "cm^-3"
+  },
+  "mc_samples_per_model": 16,
+  "random_seed": 20261020,
+  "fast_rng_reset": "profile",
+  "uncertainty_semantics": "calibrated diagonal parameter distributions with equal seed mixture; derived quantities include forward propagation; excludes collocation/reference errors",
+  "input_file": "G:\\PI_AecroFormer\\PI_AecroFormer\\examples\\nasa\\smoke_input.csv",
+  "rows": 4
+}

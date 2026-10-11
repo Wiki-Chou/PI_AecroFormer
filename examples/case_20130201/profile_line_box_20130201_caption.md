@@ -1,0 +1,1 @@
+**DISCOVER-AQ California in-situ observation experiment on 01 February 2013 (P1–P6).** Profiles compare collocated in-situ references with LUT (FAST), ORI, and the three-seed UNC ensemble. The shaded 16%–84% interval represents calibrated model-predictive uncertainty only; it does not include in-situ measurement uncertainty. No synthetic noise is added to the field observations.

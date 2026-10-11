@@ -1,0 +1,24 @@
+{
+  "spec": {
+    "source": {
+      "path": "E:\\Project\\Biodistribution\\aecroformer\\validation\\fast_vali\\cache\\fast_lut_mi_zero_log_501.npz",
+      "size": 358801828,
+      "mtime_ns": 1776079850623204800,
+      "sample_sha256": "d7aa314263ada5965007d57b8e3bc171767edbb56048b04cf698ce00b1c4c9f8"
+    },
+    "bank_size": 500000,
+    "bank_seed": 20260415,
+    "sampling": "without_replacement",
+    "implementation": "original_paper_fast_g11_knn",
+    "feature_space": "feat11_bank_std",
+    "vt_recovery": "weighted_neighbor_optics"
+  },
+  "spec_hash": "c92c1a84dfce5888ffe2f9a64fb22537798e6d691ad2bfd06be92a79781383d9",
+  "artifact_signature": {
+    "path": "G:\\aecroformer_experiments\\factorial_ablation_3x3_v1\\heldout_continuous_test\\lut_baseline_original\\fast_bank_subset_500000_seed20260415.npz",
+    "size": 32440235,
+    "mtime_ns": 1784694427467523700,
+    "sample_sha256": "79778a9e4277c0997417af77f5d21f6d5f3ebeeb209a7002ed55bba2c176fe2b"
+  },
+  "created_at": "2026-07-22T04:27:07.470557+00:00"
+}

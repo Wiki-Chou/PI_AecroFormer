@@ -1,0 +1,3 @@
+campaign,before_n,after_n,pass_finite_all,pass_nonneg_obs,pass_alpha355_ge_alpha532,pass_alpha532_gt_0p01,pass_beta1064_ge_0p0001,pass_rh_le_85,pass_beta355_gt_beta532_gt_beta1064,pass_ssa_obs_le_1p1,dropped_n,drop_ratio,filter_enabled
+ALL,121,113,121,120,121,115,117,121,119,121,8,0.06611570247933884,True
+california_fast_all_repro_paperlike_v1,121,113,121,120,121,115,117,121,119,121,8,0.06611570247933884,True

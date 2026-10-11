@@ -1,0 +1,80 @@
+{
+  "status": "passed",
+  "release_id": "paper_numeric_v1",
+  "assets_checked": 26,
+  "full_hash": true,
+  "device": "cpu",
+  "versions": {
+    "torch": "2.8.0+cpu",
+    "numpy": "1.26.4",
+    "scipy": "1.10.1",
+    "scikit-learn": "1.6.1",
+    "miepython": "3.0.2",
+    "pandas": "2.2.3",
+    "matplotlib": "3.10.0"
+  },
+  "smoke": {
+    "status": "passed",
+    "n_observations": 4,
+    "mc_samples_per_model": 16
+  },
+  "default_uncertainty": {
+    "n_observations": 1,
+    "mc_samples_per_model": 256,
+    "model_count": 3,
+    "outputs_checked": 10
+  },
+  "user_training_isolated": false,
+  "peer_archive_access_prohibited": true,
+  "forbidden_external_roots": [
+    "E:\\Project\\Biodistribution\\aecroformer",
+    "G:\\NASA_insite",
+    "G:\\aecroformer_experiments",
+    "G:\\PI_AecroFormer\\PI_AecroFormer"
+  ],
+  "external_file_accesses": 0,
+  "package_file": "G:\\PI_AecroFormer\\Training_part\\src\\pi_aecroformer\\__init__.py",
+  "assets_opened": [
+    "assets/luts/fast_bank_subset_500000_seed20260415.meta.json",
+    "assets/luts/fast_bank_subset_500000_seed20260415.npz",
+    "assets/luts/fast_lut_mi_zero_log_501.meta.json",
+    "assets/luts/fast_lut_mi_zero_log_501.npz",
+    "assets/luts/ultrafine_mie_lut.npz",
+    "assets/models/ORI/train_seed_20260721/best_dynamic_val.pth",
+    "assets/models/ORI/train_seed_20260721/scaler_X.pkl",
+    "assets/models/ORI/train_seed_20260721/scaler_y.pkl",
+    "assets/models/ORI/train_seed_20260722/best_dynamic_val.pth",
+    "assets/models/ORI/train_seed_20260722/scaler_X.pkl",
+    "assets/models/ORI/train_seed_20260722/scaler_y.pkl",
+    "assets/models/ORI/train_seed_20260723/best_dynamic_val.pth",
+    "assets/models/ORI/train_seed_20260723/scaler_X.pkl",
+    "assets/models/ORI/train_seed_20260723/scaler_y.pkl",
+    "assets/models/UNC/train_seed_20260721/best_dynamic_val.pth",
+    "assets/models/UNC/train_seed_20260721/scaler_X.pkl",
+    "assets/models/UNC/train_seed_20260721/scaler_y.pkl",
+    "assets/models/UNC/train_seed_20260721/temperature.json",
+    "assets/models/UNC/train_seed_20260722/best_dynamic_val.pth",
+    "assets/models/UNC/train_seed_20260722/scaler_X.pkl",
+    "assets/models/UNC/train_seed_20260722/scaler_y.pkl",
+    "assets/models/UNC/train_seed_20260722/temperature.json",
+    "assets/models/UNC/train_seed_20260723/best_dynamic_val.pth",
+    "assets/models/UNC/train_seed_20260723/scaler_X.pkl",
+    "assets/models/UNC/train_seed_20260723/scaler_y.pkl",
+    "assets/models/UNC/train_seed_20260723/temperature.json"
+  ],
+  "csv_rows": 4,
+  "identifiers_and_order_preserved": true,
+  "modes_checked": [
+    "UNC",
+    "ORI",
+    "FAST"
+  ],
+  "all_outputs_and_intervals_compared": true,
+  "max_abs_difference": 4.547473508864641e-13,
+  "invalid_input_error": "error: Optical channels must be nonnegative, in km^-1 or km^-1 sr^-1.",
+  "training_executed": false,
+  "calibration_executed": false,
+  "lut_rebuilt": false,
+  "compute_threads": 2,
+  "workers": 1
+}

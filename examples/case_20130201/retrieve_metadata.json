@@ -1,0 +1,15 @@
+{
+  "day": "20130201",
+  "input_rows": 32488,
+  "retrieval_rows": 1286,
+  "pass_finite": 17310,
+  "pass_nonneg": 3963,
+  "pass_alpha355_ge_alpha532": 7265,
+  "pass_alpha532_gt_0p01": 1619,
+  "pass_beta1064_ge_1e4": 2105,
+  "pass_beta355_gt_beta532_gt_beta1064": 3436,
+  "modes": [
+    "FAST",
+    "UNC"
+  ]
+}

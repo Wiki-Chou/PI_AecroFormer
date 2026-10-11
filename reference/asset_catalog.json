@@ -1,0 +1,1117 @@
+{
+  "hash_algorithm": "SHA-256/full-file",
+  "assets": {
+    "assets/luts/fast_bank_subset_500000_seed20260415.meta.json": {
+      "bytes": 1041,
+      "sha256": "cb8cd464b8f095eee16bafa16340f673a8feec288466b10ec82b11aad8244924",
+      "source": "reference/experiments/factorial_ablation_3x3_v1/heldout_continuous_test/lut_baseline_original",
+      "purpose": "synthetic-baseline-provenance",
+      "figure_groups": [
+        "paper_tables_II_III_IV"
+      ]
+    },
+    "assets/luts/fast_bank_subset_500000_seed20260415.npz": {
+      "bytes": 32440235,
+      "sha256": "bc821f8e1fa823f961d395d388014dca84629c0ef1e99acc58d17cd5ada0ce62",
+      "source": "reference/experiments/factorial_ablation_3x3_v1/heldout_continuous_test/lut_baseline_original",
+      "purpose": "synthetic-baseline-bank",
+      "figure_groups": [
+        "paper_tables_II_III_IV"
+      ]
+    },
+    "assets/luts/fast_lut_mi_zero_log_501.meta.json": {
+      "bytes": 967,
+      "sha256": "c384d9c31f804ca5578cb4b9de2d88a9043904cafd6753e946aa7710d9aa719c",
+      "source": "E:\\Project\\Biodistribution\\aecroformer\\validation\\fast_vali\\cache\\fast_lut_mi_zero_log_501.meta.json",
+      "purpose": "lut-provenance",
+      "figure_groups": [
+        "paper_profile_P1_P6",
+        "paper_day_case",
+        "paper_tables_II_III_IV",
+        "new_profile_validation"
+      ]
+    },
+    "assets/luts/fast_lut_mi_zero_log_501.npz": {
+      "bytes": 358801828,
+      "sha256": "997821678f8df7ba894af74aa6ae395fd20ad6b0fed3b0a5f5f377246f96361b",
+      "source": "E:\\Project\\Biodistribution\\aecroformer\\portable_retrieval_fast_ori_unc\\assets\\luts\\fast_lut_mi_zero_log_501.npz",
+      "purpose": "full-fast-lut",
+      "figure_groups": [
+        "paper_profile_P1_P6",
+        "paper_day_case",
+        "paper_tables_II_III_IV",
+        "new_profile_validation"
+      ]
+    },
+    "assets/luts/ultrafine_mie_lut.npz": {
+      "bytes": 10033785838,
+      "sha256": "6850089362cb8fcd0f6e14705def98239b14e7d38f423b0aaf773b9425e37c6c",
+      "source": "E:\\Project\\Biodistribution\\aecroformer\\portable_retrieval_fast_ori_unc\\assets\\luts\\ultrafine_mie_lut.npz",
+      "purpose": "forward-lut",
+      "figure_groups": [
+        "paper_profile_P1_P6",
+        "paper_day_case",
+        "paper_tables_II_III_IV",
+        "new_profile_validation"
+      ]
+    },
+    "assets/models/ORI/train_seed_20260721/best_dynamic_val.pth": {
+      "bytes": 34584075,
+      "sha256": "51db95c83d0514415b8cffe04b4a1be90ffde9dade89ffb9e539f6b5b7b71632",
+      "source": "G:\\aecroformer_experiments\\factorial_ablation_3x3_v1\\runs\\ORI\\train_seed_20260721\\checkpoints\\best_dynamic_val.pth",
+      "purpose": "release-checkpoint",
+      "figure_groups": [
+        "paper_profile_P1_P6",
+        "paper_day_case",
+        "paper_tables_II_III_IV",
+        "new_profile_validation"
+      ]
+    },
+    "assets/models/ORI/train_seed_20260721/scaler_X.pkl": {
+      "bytes": 569,
+      "sha256": "0eadccf8024c2bc1e0b59d22c8d3b604e62f6f63ee8027c709dbb9af828de467",
+      "source": "G:\\aecroformer_experiments\\factorial_ablation_3x3_v1\\runs\\ORI\\train_seed_20260721\\scalers\\scaler_X.pkl",
+      "purpose": "release-scaler",
+      "figure_groups": [
+        "paper_profile_P1_P6",
+        "paper_day_case",
+        "paper_tables_II_III_IV",
+        "new_profile_validation"
+      ]
+    },
+    "assets/models/ORI/train_seed_20260721/scaler_y.pkl": {
+      "bytes": 545,
+      "sha256": "d43b955d365811ad14a064fad438e911f60ff77acad19b0e09d72a3e640097f6",
+      "source": "G:\\aecroformer_experiments\\factorial_ablation_3x3_v1\\runs\\ORI\\train_seed_20260721\\scalers\\scaler_y.pkl",
+      "purpose": "release-scaler",
+      "figure_groups": [
+        "paper_profile_P1_P6",
+        "paper_day_case",
+        "paper_tables_II_III_IV",
+        "new_profile_validation"
+      ]
+    },
+    "assets/models/ORI/train_seed_20260722/best_dynamic_val.pth": {
+      "bytes": 34584139,
+      "sha256": "c740aa45d38a4d5329399afb1568a6abe181524a0ac17ecbad98cf109baf1390",
+      "source": "G:\\aecroformer_experiments\\factorial_ablation_3x3_v1\\runs\\ORI\\train_seed_20260722\\checkpoints\\best_dynamic_val.pth",
+      "purpose": "release-checkpoint",
+      "figure_groups": [
+        "paper_profile_P1_P6",
+        "paper_day_case",
+        "paper_tables_II_III_IV",
+        "new_profile_validation"
+      ]
+    },
+    "assets/models/ORI/train_seed_20260722/scaler_X.pkl": {
+      "bytes": 569,
+      "sha256": "0eadccf8024c2bc1e0b59d22c8d3b604e62f6f63ee8027c709dbb9af828de467",
+      "source": "G:\\aecroformer_experiments\\factorial_ablation_3x3_v1\\runs\\ORI\\train_seed_20260722\\scalers\\scaler_X.pkl",
+      "purpose": "release-scaler",
+      "figure_groups": [
+        "paper_profile_P1_P6",
+        "paper_day_case",
+        "paper_tables_II_III_IV",
+        "new_profile_validation"
+      ]
+    },
+    "assets/models/ORI/train_seed_20260722/scaler_y.pkl": {
+      "bytes": 545,
+      "sha256": "d43b955d365811ad14a064fad438e911f60ff77acad19b0e09d72a3e640097f6",
+      "source": "G:\\aecroformer_experiments\\factorial_ablation_3x3_v1\\runs\\ORI\\train_seed_20260722\\scalers\\scaler_y.pkl",
+      "purpose": "release-scaler",
+      "figure_groups": [
+        "paper_profile_P1_P6",
+        "paper_day_case",
+        "paper_tables_II_III_IV",
+        "new_profile_validation"
+      ]
+    },
+    "assets/models/ORI/train_seed_20260723/best_dynamic_val.pth": {
+      "bytes": 34584139,
+      "sha256": "7a15f600c3717ffc00ca9ad05c481a674b75a3c4424634a33d1ffb59e4fd1d17",
+      "source": "G:\\aecroformer_experiments\\factorial_ablation_3x3_v1\\runs\\ORI\\train_seed_20260723\\checkpoints\\best_dynamic_val.pth",
+      "purpose": "release-checkpoint",
+      "figure_groups": [
+        "paper_profile_P1_P6",
+        "paper_day_case",
+        "paper_tables_II_III_IV",
+        "new_profile_validation"
+      ]
+    },
+    "assets/models/ORI/train_seed_20260723/scaler_X.pkl": {
+      "bytes": 569,
+      "sha256": "0eadccf8024c2bc1e0b59d22c8d3b604e62f6f63ee8027c709dbb9af828de467",
+      "source": "G:\\aecroformer_experiments\\factorial_ablation_3x3_v1\\runs\\ORI\\train_seed_20260723\\scalers\\scaler_X.pkl",
+      "purpose": "release-scaler",
+      "figure_groups": [
+        "paper_profile_P1_P6",
+        "paper_day_case",
+        "paper_tables_II_III_IV",
+        "new_profile_validation"
+      ]
+    },
+    "assets/models/ORI/train_seed_20260723/scaler_y.pkl": {
+      "bytes": 545,
+      "sha256": "d43b955d365811ad14a064fad438e911f60ff77acad19b0e09d72a3e640097f6",
+      "source": "G:\\aecroformer_experiments\\factorial_ablation_3x3_v1\\runs\\ORI\\train_seed_20260723\\scalers\\scaler_y.pkl",
+      "purpose": "release-scaler",
+      "figure_groups": [
+        "paper_profile_P1_P6",
+        "paper_day_case",
+        "paper_tables_II_III_IV",
+        "new_profile_validation"
+      ]
+    },
+    "assets/models/UNC/train_seed_20260721/best_dynamic_val.pth": {
+      "bytes": 34624163,
+      "sha256": "8b756b8e62790f3c2ef3aae63c193e10c1057619a69bc2c0c28b8ae553be0fc5",
+      "source": "G:\\aecroformer_experiments\\factorial_ablation_3x3_v1\\runs\\BAS_PHY_DYN_UNC\\train_seed_20260721\\checkpoints\\best_dynamic_val.pth",
+      "purpose": "release-checkpoint",
+      "figure_groups": [
+        "paper_profile_P1_P6",
+        "paper_day_case",
+        "paper_tables_II_III_IV",
+        "new_profile_validation"
+      ]
+    },
+    "assets/models/UNC/train_seed_20260721/scaler_X.pkl": {
+      "bytes": 713,
+      "sha256": "006bf9f82c98d37c76a7bec29dcc3d8d4fea074cb7ca758946794d5a0a6a68ab",
+      "source": "G:\\aecroformer_experiments\\factorial_ablation_3x3_v1\\runs\\BAS_PHY_DYN_UNC\\train_seed_20260721\\scalers\\scaler_X.pkl",
+      "purpose": "release-scaler",
+      "figure_groups": [
+        "paper_profile_P1_P6",
+        "paper_day_case",
+        "paper_tables_II_III_IV",
+        "new_profile_validation"
+      ]
+    },
+    "assets/models/UNC/train_seed_20260721/scaler_y.pkl": {
+      "bytes": 545,
+      "sha256": "d43b955d365811ad14a064fad438e911f60ff77acad19b0e09d72a3e640097f6",
+      "source": "G:\\aecroformer_experiments\\factorial_ablation_3x3_v1\\runs\\BAS_PHY_DYN_UNC\\train_seed_20260721\\scalers\\scaler_y.pkl",
+      "purpose": "release-scaler",
+      "figure_groups": [
+        "paper_profile_P1_P6",
+        "paper_day_case",
+        "paper_tables_II_III_IV",
+        "new_profile_validation"
+      ]
+    },
+    "assets/models/UNC/train_seed_20260721/temperature.json": {
+      "bytes": 1977,
+      "sha256": "5ab04974b52ed6f35900e134d6218f663a4e0967eba0b2ebed24a27605645db8",
+      "source": "G:\\aecroformer_experiments\\factorial_ablation_3x3_v1\\reviewer_additions_v1\\uncertainty\\temperatures\\UNC\\train_seed_20260721.json",
+      "purpose": "frozen-calibration",
+      "figure_groups": [
+        "paper_profile_P1_P6",
+        "paper_day_case",
+        "paper_tables_II_III_IV",
+        "new_profile_validation"
+      ]
+    },
+    "assets/models/UNC/train_seed_20260722/best_dynamic_val.pth": {
+      "bytes": 34624163,
+      "sha256": "c9ef9984791d37bad9e22ac3bc21b6989cd100d5e0cf34cf8329365afee55600",
+      "source": "G:\\aecroformer_experiments\\factorial_ablation_3x3_v1\\runs\\BAS_PHY_DYN_UNC\\train_seed_20260722\\checkpoints\\best_dynamic_val.pth",
+      "purpose": "release-checkpoint",
+      "figure_groups": [
+        "paper_profile_P1_P6",
+        "paper_day_case",
+        "paper_tables_II_III_IV",
+        "new_profile_validation"
+      ]
+    },
+    "assets/models/UNC/train_seed_20260722/scaler_X.pkl": {
+      "bytes": 713,
+      "sha256": "006bf9f82c98d37c76a7bec29dcc3d8d4fea074cb7ca758946794d5a0a6a68ab",
+      "source": "G:\\aecroformer_experiments\\factorial_ablation_3x3_v1\\runs\\BAS_PHY_DYN_UNC\\train_seed_20260722\\scalers\\scaler_X.pkl",
+      "purpose": "release-scaler",
+      "figure_groups": [
+        "paper_profile_P1_P6",
+        "paper_day_case",
+        "paper_tables_II_III_IV",
+        "new_profile_validation"
+      ]
+    },
+    "assets/models/UNC/train_seed_20260722/scaler_y.pkl": {
+      "bytes": 545,
+      "sha256": "d43b955d365811ad14a064fad438e911f60ff77acad19b0e09d72a3e640097f6",
+      "source": "G:\\aecroformer_experiments\\factorial_ablation_3x3_v1\\runs\\BAS_PHY_DYN_UNC\\train_seed_20260722\\scalers\\scaler_y.pkl",
+      "purpose": "release-scaler",
+      "figure_groups": [
+        "paper_profile_P1_P6",
+        "paper_day_case",
+        "paper_tables_II_III_IV",
+        "new_profile_validation"
+      ]
+    },
+    "assets/models/UNC/train_seed_20260722/temperature.json": {
+      "bytes": 1976,
+      "sha256": "6a052048ffa71e0ff59f1bb8714c83d10828156d2217d6ac66ced76f35412de1",
+      "source": "G:\\aecroformer_experiments\\factorial_ablation_3x3_v1\\reviewer_additions_v1\\uncertainty\\temperatures\\UNC\\train_seed_20260722.json",
+      "purpose": "frozen-calibration",
+      "figure_groups": [
+        "paper_profile_P1_P6",
+        "paper_day_case",
+        "paper_tables_II_III_IV",
+        "new_profile_validation"
+      ]
+    },
+    "assets/models/UNC/train_seed_20260723/best_dynamic_val.pth": {
+      "bytes": 34624163,
+      "sha256": "14d415cef0a7c85b19f01445698505e7717a71d737e8c9cc57c48aaaef579ed5",
+      "source": "G:\\aecroformer_experiments\\factorial_ablation_3x3_v1\\runs\\BAS_PHY_DYN_UNC\\train_seed_20260723\\checkpoints\\best_dynamic_val.pth",
+      "purpose": "release-checkpoint",
+      "figure_groups": [
+        "paper_profile_P1_P6",
+        "paper_day_case",
+        "paper_tables_II_III_IV",
+        "new_profile_validation"
+      ]
+    },
+    "assets/models/UNC/train_seed_20260723/scaler_X.pkl": {
+      "bytes": 713,
+      "sha256": "006bf9f82c98d37c76a7bec29dcc3d8d4fea074cb7ca758946794d5a0a6a68ab",
+      "source": "G:\\aecroformer_experiments\\factorial_ablation_3x3_v1\\runs\\BAS_PHY_DYN_UNC\\train_seed_20260723\\scalers\\scaler_X.pkl",
+      "purpose": "release-scaler",
+      "figure_groups": [
+        "paper_profile_P1_P6",
+        "paper_day_case",
+        "paper_tables_II_III_IV",
+        "new_profile_validation"
+      ]
+    },
+    "assets/models/UNC/train_seed_20260723/scaler_y.pkl": {
+      "bytes": 545,
+      "sha256": "d43b955d365811ad14a064fad438e911f60ff77acad19b0e09d72a3e640097f6",
+      "source": "G:\\aecroformer_experiments\\factorial_ablation_3x3_v1\\runs\\BAS_PHY_DYN_UNC\\train_seed_20260723\\scalers\\scaler_y.pkl",
+      "purpose": "release-scaler",
+      "figure_groups": [
+        "paper_profile_P1_P6",
+        "paper_day_case",
+        "paper_tables_II_III_IV",
+        "new_profile_validation"
+      ]
+    },
+    "assets/models/UNC/train_seed_20260723/temperature.json": {
+      "bytes": 1976,
+      "sha256": "8e09c1eeb9798d906be49a665b88b39a5e5a974472d323e6941d7091a5091b8a",
+      "source": "G:\\aecroformer_experiments\\factorial_ablation_3x3_v1\\reviewer_additions_v1\\uncertainty\\temperatures\\UNC\\train_seed_20260723.json",
+      "purpose": "frozen-calibration",
+      "figure_groups": [
+        "paper_profile_P1_P6",
+        "paper_day_case",
+        "paper_tables_II_III_IV",
+        "new_profile_validation"
+      ]
+    },
+    "examples/batch_retrieval.py": {
+      "bytes": 565,
+      "sha256": "3fa8c0cce5bdf6620f091c9800371fde4669261837230f183611feca2eee95b7",
+      "source": "derived release example or frozen cohort QC",
+      "purpose": "release-example",
+      "figure_groups": []
+    },
+    "examples/nasa_profile.py": {
+      "bytes": 176,
+      "sha256": "21e87f5b417c3be35672c5803b645b66a2277b5906b25e22fb0ac36f2441589c",
+      "source": "derived release example or frozen cohort QC",
+      "purpose": "release-example",
+      "figure_groups": []
+    },
+    "examples/redraw_paper_profiles.py": {
+      "bytes": 605,
+      "sha256": "d7ace580dbdad22563f7fe8a91fb35c998d5cfa2d48892ae9fdcb5beea243d1d",
+      "source": "derived release example or frozen cohort QC",
+      "purpose": "release-example",
+      "figure_groups": []
+    },
+    "examples/single_sample.py": {
+      "bytes": 472,
+      "sha256": "874d73173503faf9f2ebbbfe27c856c2f01f8dc1ee4194218407b9b08e6acace",
+      "source": "derived release example or frozen cohort QC",
+      "purpose": "release-example",
+      "figure_groups": []
+    },
+    "examples/case_20130201/curtain_90s_75m.parquet": {
+      "bytes": 1288110,
+      "sha256": "f31c1dbcad5044b610f7d599d5b162528a5d7b566723d690182b953df78c184c",
+      "source": "E:\\Project\\Biodistribution\\aecroformer\\portable_retrieval_fast_ori_unc\\outputs\\daycase_20130201_paperlike_v1\\curtain_90s_75m.parquet",
+      "purpose": "paper-day-case",
+      "figure_groups": [
+        "paper_day_case"
+      ]
+    },
+    "examples/case_20130201/curtain_optical_20130201.pdf": {
+      "bytes": 1207009,
+      "sha256": "7b5216c4986e73d1a1b3c7e650b3ad6f4252a03e183fe09f6dabf7a32af748d2",
+      "source": "E:\\Project\\Biodistribution\\aecroformer\\portable_retrieval_fast_ori_unc\\outputs\\daycase_20130201_paperlike_v1\\curtain_optical_20130201.pdf",
+      "purpose": "paper-day-case",
+      "figure_groups": [
+        "paper_day_case"
+      ]
+    },
+    "examples/case_20130201/curtain_optical_20130201.png": {
+      "bytes": 666785,
+      "sha256": "07a69122fad6bddb7e9b623ddb03490d31732fe79e746453f240bc5a00ef383c",
+      "source": "E:\\Project\\Biodistribution\\aecroformer\\portable_retrieval_fast_ori_unc\\outputs\\daycase_20130201_paperlike_v1\\curtain_optical_20130201.png",
+      "purpose": "paper-day-case",
+      "figure_groups": [
+        "paper_day_case"
+      ]
+    },
+    "examples/case_20130201/curtain_optical_532_compact_20130201.pdf": {
+      "bytes": 607376,
+      "sha256": "a8d488ac1b138f2f818904d53b5144354dacdad94f6509b22feacfaa8e1c3f03",
+      "source": "E:\\Project\\Biodistribution\\aecroformer\\portable_retrieval_fast_ori_unc\\outputs\\daycase_20130201_paperlike_v1\\curtain_optical_532_compact_20130201.pdf",
+      "purpose": "paper-day-case",
+      "figure_groups": [
+        "paper_day_case"
+      ]
+    },
+    "examples/case_20130201/curtain_optical_532_compact_20130201.png": {
+      "bytes": 467843,
+      "sha256": "83f70e5d85aa2f24bdcef667f359d8751b426347e10ff88835e12436efca31fc",
+      "source": "E:\\Project\\Biodistribution\\aecroformer\\portable_retrieval_fast_ori_unc\\outputs\\daycase_20130201_paperlike_v1\\curtain_optical_532_compact_20130201.png",
+      "purpose": "paper-day-case",
+      "figure_groups": [
+        "paper_day_case"
+      ]
+    },
+    "examples/case_20130201/curtain_optical_532_triptych_20130201.pdf": {
+      "bytes": 625637,
+      "sha256": "cb1cfc05d67d8268fc71c7e0ffe859a4b7fe4f6eb9028052ee48f1ffd60bac9c",
+      "source": "E:\\Project\\Biodistribution\\aecroformer\\portable_retrieval_fast_ori_unc\\outputs\\daycase_20130201_paperlike_v1\\curtain_optical_532_triptych_20130201.pdf",
+      "purpose": "paper-day-case",
+      "figure_groups": [
+        "paper_day_case"
+      ]
+    },
+    "examples/case_20130201/curtain_optical_532_triptych_20130201.png": {
+      "bytes": 521054,
+      "sha256": "269f2fc19e6af466239a63f497f8d05d391af70f12046547d5be57903dfae02a",
+      "source": "E:\\Project\\Biodistribution\\aecroformer\\portable_retrieval_fast_ori_unc\\outputs\\daycase_20130201_paperlike_v1\\curtain_optical_532_triptych_20130201.png",
+      "purpose": "paper-day-case",
+      "figure_groups": [
+        "paper_day_case"
+      ]
+    },
+    "examples/case_20130201/curtain_profile_index_row_20130201.pdf": {
+      "bytes": 15186,
+      "sha256": "7fa5f31c811cca94738be29559296d3481051d9742016c34b58a92b8a4595b70",
+      "source": "E:\\Project\\Biodistribution\\aecroformer\\portable_retrieval_fast_ori_unc\\outputs\\daycase_20130201_paperlike_v1\\curtain_profile_index_row_20130201.pdf",
+      "purpose": "paper-day-case",
+      "figure_groups": [
+        "paper_day_case"
+      ]
+    },
+    "examples/case_20130201/curtain_profile_index_row_20130201.png": {
+      "bytes": 47818,
+      "sha256": "7b019e16c60c19146d2422535c97ed01b3e2c0dfbe709014a02e9d8da645edf5",
+      "source": "E:\\Project\\Biodistribution\\aecroformer\\portable_retrieval_fast_ori_unc\\outputs\\daycase_20130201_paperlike_v1\\curtain_profile_index_row_20130201.png",
+      "purpose": "paper-day-case",
+      "figure_groups": [
+        "paper_day_case"
+      ]
+    },
+    "examples/case_20130201/curtain_retrieval_20130201.pdf": {
+      "bytes": 401272,
+      "sha256": "67bec6dea494267a3e0481d84775894962d07f26daeaf0d7ef957dbe6b883146",
+      "source": "E:\\Project\\Biodistribution\\aecroformer\\portable_retrieval_fast_ori_unc\\outputs\\daycase_20130201_paperlike_v1\\curtain_retrieval_20130201.pdf",
+      "purpose": "paper-day-case",
+      "figure_groups": [
+        "paper_day_case"
+      ]
+    },
+    "examples/case_20130201/curtain_retrieval_20130201.png": {
+      "bytes": 1261733,
+      "sha256": "be3ef073cd50fc41182a0e97f6f29861f015d8dfb0e5b3030cd22da0f1a8c543",
+      "source": "E:\\Project\\Biodistribution\\aecroformer\\portable_retrieval_fast_ori_unc\\outputs\\daycase_20130201_paperlike_v1\\curtain_retrieval_20130201.png",
+      "purpose": "paper-day-case",
+      "figure_groups": [
+        "paper_day_case"
+      ]
+    },
+    "examples/case_20130201/extract_metadata.json": {
+      "bytes": 723,
+      "sha256": "29b3594917496b949af03953e101569fd1bffc4821dbd07650aab21347c46df8",
+      "source": "E:\\Project\\Biodistribution\\aecroformer\\portable_retrieval_fast_ori_unc\\outputs\\daycase_20130201_paperlike_v1\\extract_metadata.json",
+      "purpose": "paper-day-case",
+      "figure_groups": [
+        "paper_day_case"
+      ]
+    },
+    "examples/case_20130201/insitu_overlay_90s_75m.parquet": {
+      "bytes": 8972,
+      "sha256": "65090731b53bc71ce088d84e75f631d506be73e5659bdf41db00702ac39589b6",
+      "source": "E:\\Project\\Biodistribution\\aecroformer\\portable_retrieval_fast_ori_unc\\outputs\\daycase_20130201_paperlike_v1\\insitu_overlay_90s_75m.parquet",
+      "purpose": "paper-day-case",
+      "figure_groups": [
+        "paper_day_case"
+      ]
+    },
+    "examples/case_20130201/insitu_overlay_lines.parquet": {
+      "bytes": 6824,
+      "sha256": "bde477e067fc307a4d47dee75fc2a35e4f28b9f4ed09ecd738bd515685c8014e",
+      "source": "E:\\Project\\Biodistribution\\aecroformer\\portable_retrieval_fast_ori_unc\\outputs\\daycase_20130201_paperlike_v1\\insitu_overlay_lines.parquet",
+      "purpose": "paper-day-case",
+      "figure_groups": [
+        "paper_day_case"
+      ]
+    },
+    "examples/case_20130201/insitu_overlay_points_raw.parquet": {
+      "bytes": 9058,
+      "sha256": "fa58944a4f858e9a27877a084b291f42275b1de5b0fe06f101f2368bcbde1200",
+      "source": "E:\\Project\\Biodistribution\\aecroformer\\portable_retrieval_fast_ori_unc\\outputs\\daycase_20130201_paperlike_v1\\insitu_overlay_points_raw.parquet",
+      "purpose": "paper-day-case",
+      "figure_groups": [
+        "paper_day_case"
+      ]
+    },
+    "examples/case_20130201/plot_metadata.json": {
+      "bytes": 2049,
+      "sha256": "90a922249dbb17b949658791049c8c3c2f673a83933dee08f1734b342a625986",
+      "source": "E:\\Project\\Biodistribution\\aecroformer\\portable_retrieval_fast_ori_unc\\outputs\\daycase_20130201_paperlike_v1\\plot_metadata.json",
+      "purpose": "paper-day-case",
+      "figure_groups": [
+        "paper_day_case"
+      ]
+    },
+    "examples/case_20130201/profile_index_mapping_20130201.csv": {
+      "bytes": 539,
+      "sha256": "1b24fefcb81fb7caea40b9c36a2cfd4b95a9dbc6713a563de805a53eaa97a930",
+      "source": "E:\\Project\\Biodistribution\\aecroformer\\portable_retrieval_fast_ori_unc\\outputs\\daycase_20130201_paperlike_v1\\profile_index_mapping_20130201.csv",
+      "purpose": "paper-day-case",
+      "figure_groups": [
+        "paper_profile_P1_P6",
+        "paper_day_case"
+      ]
+    },
+    "examples/case_20130201/profile_line_box_20130201.pdf": {
+      "bytes": 54444,
+      "sha256": "393204c98dc7c5dcaa77a252a1480b066377b49d5a85a47d4f8f1fa5252d080c",
+      "source": "G:\\aecroformer_experiments\\factorial_ablation_3x3_v1\\reviewer_additions_v1\\profile_figure\\figures\\profile_line_box_20130201_uncertainty.pdf",
+      "purpose": "formal-experiment",
+      "figure_groups": [
+        "paper_profile_P1_P6",
+        "paper_day_case"
+      ]
+    },
+    "examples/case_20130201/profile_line_box_20130201.png": {
+      "bytes": 1166076,
+      "sha256": "9834c195a8871b3ee9ea4875987573236f3d5642d41e9d33e653f7ae6137bbe1",
+      "source": "G:\\aecroformer_experiments\\factorial_ablation_3x3_v1\\reviewer_additions_v1\\profile_figure\\figures\\profile_line_box_20130201_uncertainty.png",
+      "purpose": "formal-experiment",
+      "figure_groups": [
+        "paper_profile_P1_P6",
+        "paper_day_case"
+      ]
+    },
+    "examples/case_20130201/profile_line_box_20130201.svg": {
+      "bytes": 226355,
+      "sha256": "091fe830506a1543cf7821ae95d253a68619d30525f82458731388845e4ee78b",
+      "source": "G:\\aecroformer_experiments\\factorial_ablation_3x3_v1\\reviewer_additions_v1\\profile_figure\\figures\\profile_line_box_20130201_uncertainty.svg",
+      "purpose": "formal-experiment",
+      "figure_groups": [
+        "paper_day_case"
+      ]
+    },
+    "examples/case_20130201/profile_line_box_20130201_caption.md": {
+      "bytes": 387,
+      "sha256": "cc5b9281ceab9fed52d1d57120ac9a6cb975155e96e3134ab758e516f9285e30",
+      "source": "G:\\aecroformer_experiments\\factorial_ablation_3x3_v1\\reviewer_additions_v1\\profile_figure\\profile_line_box_20130201_caption.md",
+      "purpose": "formal-experiment",
+      "figure_groups": [
+        "paper_day_case"
+      ]
+    },
+    "examples/case_20130201/profile_line_box_20130201_metadata.json": {
+      "bytes": 2724,
+      "sha256": "72e49bd48fe29d911834d128469cd72616c9bbe12a413221de65bfdc0ee04ee7",
+      "source": "G:\\aecroformer_experiments\\factorial_ablation_3x3_v1\\reviewer_additions_v1\\profile_figure\\profile_line_box_20130201_metadata.json",
+      "purpose": "formal-experiment",
+      "figure_groups": [
+        "paper_day_case"
+      ]
+    },
+    "examples/case_20130201/profile_line_box_20130201_source_data.csv": {
+      "bytes": 14404,
+      "sha256": "e6e723c5f03db8e8997a688665911b9f1b5e122bd5f729bbd499da19db0a4be1",
+      "source": "G:\\aecroformer_experiments\\factorial_ablation_3x3_v1\\reviewer_additions_v1\\profile_figure\\profile_line_box_20130201_source_data.csv",
+      "purpose": "formal-experiment",
+      "figure_groups": [
+        "paper_day_case"
+      ]
+    },
+    "examples/case_20130201/README.md": {
+      "bytes": 1065,
+      "sha256": "270432eb04e574a942e2948b011b9f31f7353e1fdfd2e1eb568d517332fc3519",
+      "source": "derived release example or frozen cohort QC",
+      "purpose": "release-example",
+      "figure_groups": [
+        "paper_day_case"
+      ]
+    },
+    "examples/case_20130201/retrieval_90s_75m.parquet": {
+      "bytes": 247753,
+      "sha256": "2e6d31c0948d5569bdd71d35101ef5061d40145c1de826fb64c0559ed12c75f5",
+      "source": "E:\\Project\\Biodistribution\\aecroformer\\portable_retrieval_fast_ori_unc\\outputs\\daycase_20130201_paperlike_v1\\retrieval_90s_75m.parquet",
+      "purpose": "paper-day-case",
+      "figure_groups": [
+        "paper_day_case"
+      ]
+    },
+    "examples/case_20130201/retrieve_metadata.json": {
+      "bytes": 322,
+      "sha256": "c318fafc5bdfe576f04de884e7231612e23598db2e3fe76c15dc758df09ebb16",
+      "source": "E:\\Project\\Biodistribution\\aecroformer\\portable_retrieval_fast_ori_unc\\outputs\\daycase_20130201_paperlike_v1\\retrieve_metadata.json",
+      "purpose": "paper-day-case",
+      "figure_groups": [
+        "paper_day_case"
+      ]
+    },
+    "examples/case_20130201/runtime_fast_unc_benchmark.csv": {
+      "bytes": 458,
+      "sha256": "4c12aa7e010698e350d8e522a0b8b4b00ee83e88fa4a11c9643496a9fee3ea9f",
+      "source": "E:\\Project\\Biodistribution\\aecroformer\\portable_retrieval_fast_ori_unc\\outputs\\daycase_20130201_paperlike_v1\\runtime_fast_unc_benchmark.csv",
+      "purpose": "paper-day-case",
+      "figure_groups": [
+        "paper_day_case"
+      ]
+    },
+    "examples/case_20130201/runtime_fast_unc_benchmark.json": {
+      "bytes": 1455,
+      "sha256": "61750b31866a3e92edb84e4ee90d48aae0b8bc220236ed82c6aea8c1b22544dd",
+      "source": "E:\\Project\\Biodistribution\\aecroformer\\portable_retrieval_fast_ori_unc\\outputs\\daycase_20130201_paperlike_v1\\runtime_fast_unc_benchmark.json",
+      "purpose": "paper-day-case",
+      "figure_groups": [
+        "paper_day_case"
+      ]
+    },
+    "examples/case_20130201/runtime_params_only_fast_unc.csv": {
+      "bytes": 638,
+      "sha256": "229b8f8b6765d691721816f66baf1f2be8809e3563663869b5ee3bc31afd4914",
+      "source": "E:\\Project\\Biodistribution\\aecroformer\\portable_retrieval_fast_ori_unc\\outputs\\daycase_20130201_paperlike_v1\\runtime_params_only_fast_unc.csv",
+      "purpose": "paper-day-case",
+      "figure_groups": [
+        "paper_day_case"
+      ]
+    },
+    "examples/case_20130201/runtime_params_only_fast_unc.json": {
+      "bytes": 1664,
+      "sha256": "2ed7310431b097f9c9c2f2c554cec689da5c122ca3fca76290cadc843126ff78",
+      "source": "E:\\Project\\Biodistribution\\aecroformer\\portable_retrieval_fast_ori_unc\\outputs\\daycase_20130201_paperlike_v1\\runtime_params_only_fast_unc.json",
+      "purpose": "paper-day-case",
+      "figure_groups": [
+        "paper_day_case"
+      ]
+    },
+    "examples/case_20130201/runtime_params_only_fast_unc_64.csv": {
+      "bytes": 636,
+      "sha256": "51925c0188c731ea12771060f4c54b2bebdc869331a5aef115e8173d20393f53",
+      "source": "E:\\Project\\Biodistribution\\aecroformer\\portable_retrieval_fast_ori_unc\\outputs\\daycase_20130201_paperlike_v1\\runtime_params_only_fast_unc_64.csv",
+      "purpose": "paper-day-case",
+      "figure_groups": [
+        "paper_day_case"
+      ]
+    },
+    "examples/case_20130201/runtime_params_only_fast_unc_64.json": {
+      "bytes": 1662,
+      "sha256": "4664d5bbe8630e41be7cdfb57b22d72523384f6bc8e68b75b84bc662ba0dab50",
+      "source": "E:\\Project\\Biodistribution\\aecroformer\\portable_retrieval_fast_ori_unc\\outputs\\daycase_20130201_paperlike_v1\\runtime_params_only_fast_unc_64.json",
+      "purpose": "paper-day-case",
+      "figure_groups": [
+        "paper_day_case"
+      ]
+    },
+    "examples/nasa/filter_summary.csv": {
+      "bytes": 416,
+      "sha256": "2540dd7cd45ead59abe797b2766bd20efafa241150c62a25f6efb1794f0a550a",
+      "source": "E:\\Project\\Biodistribution\\aecroformer\\portable_retrieval_fast_ori_unc\\outputs\\california_fast_all_repro_paperlike_v1_eval\\retrieval_filter_summary.csv",
+      "purpose": "historical-nasa-baseline",
+      "figure_groups": []
+    },
+    "examples/nasa/paper_input_113.csv": {
+      "bytes": 27542,
+      "sha256": "a020290b9e39ca741d8702e273c85a996f43524512bda5aa9a2d10af4ddca36d",
+      "source": "derived release example or frozen cohort QC",
+      "purpose": "release-example",
+      "figure_groups": []
+    },
+    "examples/nasa/smoke_input.csv": {
+      "bytes": 1098,
+      "sha256": "0cf6715c7dd1b3f543a2b439f29866d564190bf658541cd86a9d1ca50229c1a8",
+      "source": "derived release example or frozen cohort QC",
+      "purpose": "release-example",
+      "figure_groups": []
+    },
+    "examples/nasa/profile_groups_direct/CA_20130116_D001_direct.parquet": {
+      "bytes": 42521,
+      "sha256": "a535adbf74c31e305cd67162fbf7e75c64b198b56cd4ee81c178ab24e9e09155",
+      "source": "G:\\NASA_insite\\processed\\california_fast_all_repro_paperlike_v1\\profile_groups_direct\\CA_20130116_D001_direct.parquet",
+      "purpose": "nasa-matched-cohort",
+      "figure_groups": []
+    },
+    "examples/nasa/profile_groups_direct/CA_20130120_D001_direct.parquet": {
+      "bytes": 41896,
+      "sha256": "1fda99b36c43be2afe317cebd77aace346cac9b58f88765527128449de48b78e",
+      "source": "G:\\NASA_insite\\processed\\california_fast_all_repro_paperlike_v1\\profile_groups_direct\\CA_20130120_D001_direct.parquet",
+      "purpose": "nasa-matched-cohort",
+      "figure_groups": []
+    },
+    "examples/nasa/profile_groups_direct/CA_20130120_D002_direct.parquet": {
+      "bytes": 42116,
+      "sha256": "d87388feb1d7972c85fcb5c1e5a76c30d2bc842a67761f179e5e02824dd52eb0",
+      "source": "G:\\NASA_insite\\processed\\california_fast_all_repro_paperlike_v1\\profile_groups_direct\\CA_20130120_D002_direct.parquet",
+      "purpose": "nasa-matched-cohort",
+      "figure_groups": []
+    },
+    "examples/nasa/profile_groups_direct/CA_20130120_D003_direct.parquet": {
+      "bytes": 41896,
+      "sha256": "189e02846fb85c5e4458d8e9dffc7c4a381b76bcc919ed6653f1e264a7bc88ee",
+      "source": "G:\\NASA_insite\\processed\\california_fast_all_repro_paperlike_v1\\profile_groups_direct\\CA_20130120_D003_direct.parquet",
+      "purpose": "nasa-matched-cohort",
+      "figure_groups": []
+    },
+    "examples/nasa/profile_groups_direct/CA_20130121_D001_direct.parquet": {
+      "bytes": 42092,
+      "sha256": "b9047e837f59bebb00cf1320394d7b0fc4bf0229a3dddbf657b525a45905b9f0",
+      "source": "G:\\NASA_insite\\processed\\california_fast_all_repro_paperlike_v1\\profile_groups_direct\\CA_20130121_D001_direct.parquet",
+      "purpose": "nasa-matched-cohort",
+      "figure_groups": []
+    },
+    "examples/nasa/profile_groups_direct/CA_20130121_D002_direct.parquet": {
+      "bytes": 41896,
+      "sha256": "1e3ac603c5ff7f3fd651343e2857616e4c86fe520fc1c3778f9c91c835c1904b",
+      "source": "G:\\NASA_insite\\processed\\california_fast_all_repro_paperlike_v1\\profile_groups_direct\\CA_20130121_D002_direct.parquet",
+      "purpose": "nasa-matched-cohort",
+      "figure_groups": []
+    },
+    "examples/nasa/profile_groups_direct/CA_20130121_D003_direct.parquet": {
+      "bytes": 42068,
+      "sha256": "87994b47b2876f99344905495b4ba484dc68011aa30456110d08c0084ed36add",
+      "source": "G:\\NASA_insite\\processed\\california_fast_all_repro_paperlike_v1\\profile_groups_direct\\CA_20130121_D003_direct.parquet",
+      "purpose": "nasa-matched-cohort",
+      "figure_groups": []
+    },
+    "examples/nasa/profile_groups_direct/CA_20130121_D004_direct.parquet": {
+      "bytes": 41896,
+      "sha256": "7d0b90a6e92d657cc8c40c007c8d7c5fb8867353e1b4afea0af242dd9fc16004",
+      "source": "G:\\NASA_insite\\processed\\california_fast_all_repro_paperlike_v1\\profile_groups_direct\\CA_20130121_D004_direct.parquet",
+      "purpose": "nasa-matched-cohort",
+      "figure_groups": []
+    },
+    "examples/nasa/profile_groups_direct/CA_20130121_D005_direct.parquet": {
+      "bytes": 42048,
+      "sha256": "427caf4568375edf40029d25a87d8ff1277109996f36d9737fd29e37c356ff1a",
+      "source": "G:\\NASA_insite\\processed\\california_fast_all_repro_paperlike_v1\\profile_groups_direct\\CA_20130121_D005_direct.parquet",
+      "purpose": "nasa-matched-cohort",
+      "figure_groups": []
+    },
+    "examples/nasa/profile_groups_direct/CA_20130121_D006_direct.parquet": {
+      "bytes": 42224,
+      "sha256": "4a7e69aa4867bd3a093a875a2f274ad9d00908bf1c22900cd7f90837b1932164",
+      "source": "G:\\NASA_insite\\processed\\california_fast_all_repro_paperlike_v1\\profile_groups_direct\\CA_20130121_D006_direct.parquet",
+      "purpose": "nasa-matched-cohort",
+      "figure_groups": []
+    },
+    "examples/nasa/profile_groups_direct/CA_20130121_D007_direct.parquet": {
+      "bytes": 42068,
+      "sha256": "d692bb38f08a7d1537e7bb82b189b6fc24696c09fed315de090753a75f407b66",
+      "source": "G:\\NASA_insite\\processed\\california_fast_all_repro_paperlike_v1\\profile_groups_direct\\CA_20130121_D007_direct.parquet",
+      "purpose": "nasa-matched-cohort",
+      "figure_groups": []
+    },
+    "examples/nasa/profile_groups_direct/CA_20130121_D008_direct.parquet": {
+      "bytes": 41896,
+      "sha256": "4ee1cb52805be7427e9c87932242dc4a9a1aa737685f5ac220b82e77111047f4",
+      "source": "G:\\NASA_insite\\processed\\california_fast_all_repro_paperlike_v1\\profile_groups_direct\\CA_20130121_D008_direct.parquet",
+      "purpose": "nasa-matched-cohort",
+      "figure_groups": []
+    },
+    "examples/nasa/profile_groups_direct/CA_20130122_D001_direct.parquet": {
+      "bytes": 42100,
+      "sha256": "5abbc3389c6943c7dcc2c17dad2a9643a1f7d234710853167cf6909241d3f41c",
+      "source": "G:\\NASA_insite\\processed\\california_fast_all_repro_paperlike_v1\\profile_groups_direct\\CA_20130122_D001_direct.parquet",
+      "purpose": "nasa-matched-cohort",
+      "figure_groups": []
+    },
+    "examples/nasa/profile_groups_direct/CA_20130130_D001_direct.parquet": {
+      "bytes": 42667,
+      "sha256": "9515daed833dde7099f8f9339328fda5db1fc57be6cb1882099e5fde1fedeb95",
+      "source": "G:\\NASA_insite\\processed\\california_fast_all_repro_paperlike_v1\\profile_groups_direct\\CA_20130130_D001_direct.parquet",
+      "purpose": "nasa-matched-cohort",
+      "figure_groups": []
+    },
+    "examples/nasa/profile_groups_direct/CA_20130130_D002_direct.parquet": {
+      "bytes": 43111,
+      "sha256": "04feba7b16cd42229188defcf0f7740e0b03f9c824df8dd513a820ea93c2a1e0",
+      "source": "G:\\NASA_insite\\processed\\california_fast_all_repro_paperlike_v1\\profile_groups_direct\\CA_20130130_D002_direct.parquet",
+      "purpose": "nasa-matched-cohort",
+      "figure_groups": []
+    },
+    "examples/nasa/profile_groups_direct/CA_20130130_D003_direct.parquet": {
+      "bytes": 43109,
+      "sha256": "5673966c7541988d6e961ab2c6db6633ff7c17f654c0558e6741405c3cd60b23",
+      "source": "G:\\NASA_insite\\processed\\california_fast_all_repro_paperlike_v1\\profile_groups_direct\\CA_20130130_D003_direct.parquet",
+      "purpose": "nasa-matched-cohort",
+      "figure_groups": []
+    },
+    "examples/nasa/profile_groups_direct/CA_20130130_D004_direct.parquet": {
+      "bytes": 41896,
+      "sha256": "dd2e2fc9c79258b6436e07d9af111b37c9bae3ee8a0db51883577593d99ad554",
+      "source": "G:\\NASA_insite\\processed\\california_fast_all_repro_paperlike_v1\\profile_groups_direct\\CA_20130130_D004_direct.parquet",
+      "purpose": "nasa-matched-cohort",
+      "figure_groups": []
+    },
+    "examples/nasa/profile_groups_direct/CA_20130130_D005_direct.parquet": {
+      "bytes": 42775,
+      "sha256": "fa7741eca2621ea9cf7020dae0d547167408a874930e295cc185105da06a35d5",
+      "source": "G:\\NASA_insite\\processed\\california_fast_all_repro_paperlike_v1\\profile_groups_direct\\CA_20130130_D005_direct.parquet",
+      "purpose": "nasa-matched-cohort",
+      "figure_groups": []
+    },
+    "examples/nasa/profile_groups_direct/CA_20130130_D006_direct.parquet": {
+      "bytes": 43518,
+      "sha256": "729bd0cbbc4683a4526f8bc7fd0f7fb707b7df782e1c6f17898a15ceadeb78d1",
+      "source": "G:\\NASA_insite\\processed\\california_fast_all_repro_paperlike_v1\\profile_groups_direct\\CA_20130130_D006_direct.parquet",
+      "purpose": "nasa-matched-cohort",
+      "figure_groups": []
+    },
+    "examples/nasa/profile_groups_direct/CA_20130131_D001_direct.parquet": {
+      "bytes": 42308,
+      "sha256": "525c473fae9482ee8b6360860dd8765d23b0318522574b62a7a8c4db1d34d4d7",
+      "source": "G:\\NASA_insite\\processed\\california_fast_all_repro_paperlike_v1\\profile_groups_direct\\CA_20130131_D001_direct.parquet",
+      "purpose": "nasa-matched-cohort",
+      "figure_groups": []
+    },
+    "examples/nasa/profile_groups_direct/CA_20130131_D002_direct.parquet": {
+      "bytes": 42499,
+      "sha256": "979e29a1ec33cdb19792c36736f4d416b8b869971a76e7b16e2cdfb4f1ff1bd1",
+      "source": "G:\\NASA_insite\\processed\\california_fast_all_repro_paperlike_v1\\profile_groups_direct\\CA_20130131_D002_direct.parquet",
+      "purpose": "nasa-matched-cohort",
+      "figure_groups": []
+    },
+    "examples/nasa/profile_groups_direct/CA_20130131_D003_direct.parquet": {
+      "bytes": 42769,
+      "sha256": "0e6c7988c25bda1aaeefdf4bca1ae71d03209b505e84b60f5bb7a6babef2824c",
+      "source": "G:\\NASA_insite\\processed\\california_fast_all_repro_paperlike_v1\\profile_groups_direct\\CA_20130131_D003_direct.parquet",
+      "purpose": "nasa-matched-cohort",
+      "figure_groups": []
+    },
+    "examples/nasa/profile_groups_direct/CA_20130201_D001_direct.parquet": {
+      "bytes": 42517,
+      "sha256": "b2b7973f7f59666dd4d3fc8a91ae0c2e6c2cf986a480a5abd472381b2098c0bd",
+      "source": "G:\\NASA_insite\\processed\\california_fast_all_repro_paperlike_v1\\profile_groups_direct\\CA_20130201_D001_direct.parquet",
+      "purpose": "nasa-matched-cohort",
+      "figure_groups": []
+    },
+    "examples/nasa/profile_groups_direct/CA_20130201_D002_direct.parquet": {
+      "bytes": 42802,
+      "sha256": "95476b2c4c4d2dedfbdfdf3e33c1da322c058be681f4b13139a791abeef171c5",
+      "source": "G:\\NASA_insite\\processed\\california_fast_all_repro_paperlike_v1\\profile_groups_direct\\CA_20130201_D002_direct.parquet",
+      "purpose": "nasa-matched-cohort",
+      "figure_groups": []
+    },
+    "examples/nasa/profile_groups_direct/CA_20130201_D003_direct.parquet": {
+      "bytes": 42474,
+      "sha256": "53a6b9581680f6ffc0f0a248b488851507242bebad139cb17598c644da8fbe77",
+      "source": "G:\\NASA_insite\\processed\\california_fast_all_repro_paperlike_v1\\profile_groups_direct\\CA_20130201_D003_direct.parquet",
+      "purpose": "nasa-matched-cohort",
+      "figure_groups": []
+    },
+    "examples/nasa/profile_groups_direct/CA_20130201_D004_direct.parquet": {
+      "bytes": 42813,
+      "sha256": "5282a24e5ae52030544534f7294e5618988013e0a4a0501778784410ad27d4d5",
+      "source": "G:\\NASA_insite\\processed\\california_fast_all_repro_paperlike_v1\\profile_groups_direct\\CA_20130201_D004_direct.parquet",
+      "purpose": "nasa-matched-cohort",
+      "figure_groups": []
+    },
+    "examples/nasa/profile_groups_direct/CA_20130201_D005_direct.parquet": {
+      "bytes": 42773,
+      "sha256": "ea4450bcf682b5e0b6239cb7c34e4d5e037e98d82b8eae33f810617887d63e27",
+      "source": "G:\\NASA_insite\\processed\\california_fast_all_repro_paperlike_v1\\profile_groups_direct\\CA_20130201_D005_direct.parquet",
+      "purpose": "nasa-matched-cohort",
+      "figure_groups": []
+    },
+    "examples/nasa/profile_groups_direct/CA_20130201_D006_direct.parquet": {
+      "bytes": 42450,
+      "sha256": "397d606b7dde658bf1dbeb6e9751a1b79f903e7073df5ae6a4ce7075cf4d2e76",
+      "source": "G:\\NASA_insite\\processed\\california_fast_all_repro_paperlike_v1\\profile_groups_direct\\CA_20130201_D006_direct.parquet",
+      "purpose": "nasa-matched-cohort",
+      "figure_groups": []
+    },
+    "examples/nasa/profile_groups_direct/CA_20130204_D001_direct.parquet": {
+      "bytes": 42010,
+      "sha256": "b106cedc6b911e5be7a5ea1a4c99840c813f60839185c5c0ba1616169547f3bf",
+      "source": "G:\\NASA_insite\\processed\\california_fast_all_repro_paperlike_v1\\profile_groups_direct\\CA_20130204_D001_direct.parquet",
+      "purpose": "nasa-matched-cohort",
+      "figure_groups": []
+    },
+    "examples/nasa/profile_groups_direct/CA_20130204_D002_direct.parquet": {
+      "bytes": 42100,
+      "sha256": "89b0c54662e146c9ad7f3383cecbe211ead9527c957df95e9de8d191e33a2639",
+      "source": "G:\\NASA_insite\\processed\\california_fast_all_repro_paperlike_v1\\profile_groups_direct\\CA_20130204_D002_direct.parquet",
+      "purpose": "nasa-matched-cohort",
+      "figure_groups": []
+    },
+    "examples/nasa/profile_groups_direct/CA_20130204_D003_direct.parquet": {
+      "bytes": 42219,
+      "sha256": "acc2b5d9f94aa6c281f2af334ea3d9919f10892eaa55928702067f59c867170e",
+      "source": "G:\\NASA_insite\\processed\\california_fast_all_repro_paperlike_v1\\profile_groups_direct\\CA_20130204_D003_direct.parquet",
+      "purpose": "nasa-matched-cohort",
+      "figure_groups": []
+    },
+    "reference/paper_tables/aggregation_metadata.json": {
+      "bytes": 423,
+      "sha256": "443e478ca488bdb8e668f93291bfbbbb842e51802b8d9358cfe8d1586f6c1ec1",
+      "source": "G:\\aecroformer_experiments\\factorial_ablation_3x3_v1\\heldout_continuous_test\\tables\\aggregation_metadata.json",
+      "purpose": "formal-experiment",
+      "figure_groups": [
+        "paper_tables_II_III_IV"
+      ]
+    },
+    "reference/paper_tables/all_heldout_clean_noisy.csv": {
+      "bytes": 42190,
+      "sha256": "d4e3f06748f6c6c489800280e46f23d60e94dfa85ddfdf8d3aeed070b34df49a",
+      "source": "G:\\aecroformer_experiments\\factorial_ablation_3x3_v1\\heldout_continuous_test\\tables\\all_heldout_clean_noisy.csv",
+      "purpose": "formal-experiment",
+      "figure_groups": [
+        "paper_tables_II_III_IV"
+      ]
+    },
+    "reference/paper_tables/all_heldout_standard_noise.csv": {
+      "bytes": 21213,
+      "sha256": "9ab82137bcf181a1cc58b22e74dd0b1bcbeafeefee7ae7fe29ad26886fdeb181",
+      "source": "G:\\aecroformer_experiments\\factorial_ablation_3x3_v1\\heldout_continuous_test\\tables\\all_heldout_standard_noise.csv",
+      "purpose": "formal-experiment",
+      "figure_groups": [
+        "paper_tables_II_III_IV"
+      ]
+    },
+    "reference/paper_tables/nasa_all_training_seeds.csv": {
+      "bytes": 4518,
+      "sha256": "ad974fd1ec16829992d3725eb50e54c01107290ff90226744cde570ba0d937f7",
+      "source": "G:\\aecroformer_experiments\\factorial_ablation_3x3_v1\\heldout_continuous_test\\external_validation_original\\original_external_all_training_seeds.csv",
+      "purpose": "formal-experiment",
+      "figure_groups": [
+        "paper_tables_II_III_IV"
+      ]
+    },
+    "reference/paper_tables/nasa_per_seed.csv": {
+      "bytes": 4518,
+      "sha256": "ad974fd1ec16829992d3725eb50e54c01107290ff90226744cde570ba0d937f7",
+      "source": "G:\\aecroformer_experiments\\factorial_ablation_3x3_v1\\heldout_continuous_test\\external_validation_original\\original_external_all_training_seeds.csv",
+      "purpose": "formal-experiment",
+      "figure_groups": [
+        "paper_tables_II_III_IV"
+      ]
+    },
+    "reference/paper_tables/table_iii_signed_error.md": {
+      "bytes": 1017,
+      "sha256": "0293f2af8397a3cf3bab16f53f1ef17064bb2cb8f78183b7cfdc37e5c4a8c01b",
+      "source": "G:\\aecroformer_experiments\\factorial_ablation_3x3_v1\\heldout_continuous_test\\tables\\table_iii_signed_error.md",
+      "purpose": "formal-experiment",
+      "figure_groups": [
+        "paper_tables_II_III_IV"
+      ]
+    },
+    "reference/paper_tables/table_iii_signed_error.tex": {
+      "bytes": 1041,
+      "sha256": "54c0c382be3eb9674ad602ab2fa91a9469d99a48bac334d3428ec38abf8bbd13",
+      "source": "G:\\aecroformer_experiments\\factorial_ablation_3x3_v1\\heldout_continuous_test\\tables\\table_iii_signed_error.tex",
+      "purpose": "formal-experiment",
+      "figure_groups": [
+        "paper_tables_II_III_IV"
+      ]
+    },
+    "reference/paper_tables/table_iii_signed_error_formatted.csv": {
+      "bytes": 841,
+      "sha256": "93b579fea892576334d877885018921f8e2e7ce359a4bd47fbd94b9548675867",
+      "source": "G:\\aecroformer_experiments\\factorial_ablation_3x3_v1\\heldout_continuous_test\\tables\\table_iii_signed_error_formatted.csv",
+      "purpose": "formal-experiment",
+      "figure_groups": [
+        "paper_tables_II_III_IV"
+      ]
+    },
+    "reference/paper_tables/table_iii_signed_error_mean_std.csv": {
+      "bytes": 2205,
+      "sha256": "b1d4d01e4e3212fac99a8a9a6c63e1b6e1b111ebaa94c72e7fb84ab8c72dad8a",
+      "source": "G:\\aecroformer_experiments\\factorial_ablation_3x3_v1\\heldout_continuous_test\\tables\\table_iii_signed_error_mean_std.csv",
+      "purpose": "formal-experiment",
+      "figure_groups": [
+        "paper_tables_II_III_IV"
+      ]
+    },
+    "reference/paper_tables/table_ii_error_magnitude.md": {
+      "bytes": 1016,
+      "sha256": "83e1a05fe6d3f00bf2287c00dc2b157785b858762d97bfacf09c14e6e480c187",
+      "source": "G:\\aecroformer_experiments\\factorial_ablation_3x3_v1\\heldout_continuous_test\\tables\\table_ii_error_magnitude.md",
+      "purpose": "formal-experiment",
+      "figure_groups": [
+        "paper_tables_II_III_IV"
+      ]
+    },
+    "reference/paper_tables/table_ii_error_magnitude.tex": {
+      "bytes": 1040,
+      "sha256": "68e3ded510cffc4055ddcd3dec7c805d9a3f8ca06f915c291191d4959db5f47d",
+      "source": "G:\\aecroformer_experiments\\factorial_ablation_3x3_v1\\heldout_continuous_test\\tables\\table_ii_error_magnitude.tex",
+      "purpose": "formal-experiment",
+      "figure_groups": [
+        "paper_tables_II_III_IV"
+      ]
+    },
+    "reference/paper_tables/table_ii_error_magnitude_formatted.csv": {
+      "bytes": 840,
+      "sha256": "e804345b16d18b13a1aa632b8038cb800a5fad1c9437cabf0d07fa01924712b4",
+      "source": "G:\\aecroformer_experiments\\factorial_ablation_3x3_v1\\heldout_continuous_test\\tables\\table_ii_error_magnitude_formatted.csv",
+      "purpose": "formal-experiment",
+      "figure_groups": [
+        "paper_tables_II_III_IV"
+      ]
+    },
+    "reference/paper_tables/table_ii_error_magnitude_mean_std.csv": {
+      "bytes": 2169,
+      "sha256": "864a2b64590c5c221d8372aa9d7914a292b0bc5e2a7e43a2418cf7d4254d0dfa",
+      "source": "G:\\aecroformer_experiments\\factorial_ablation_3x3_v1\\heldout_continuous_test\\tables\\table_ii_error_magnitude_mean_std.csv",
+      "purpose": "formal-experiment",
+      "figure_groups": [
+        "paper_tables_II_III_IV"
+      ]
+    },
+    "reference/paper_tables/table_iv_nasa.md": {
+      "bytes": 866,
+      "sha256": "86b109744ff2a293ef385ef2b7762c61f506851e41baf51c87144a953a721e57",
+      "source": "G:\\aecroformer_experiments\\factorial_ablation_3x3_v1\\heldout_continuous_test\\tables\\table_iv_nasa.md",
+      "purpose": "formal-experiment",
+      "figure_groups": [
+        "paper_tables_II_III_IV"
+      ]
+    },
+    "reference/paper_tables/table_iv_nasa.tex": {
+      "bytes": 895,
+      "sha256": "1c07185d4c5db0b25f1d52697db79c45f307a2242f0c386c01cfe3b142c2caba",
+      "source": "G:\\aecroformer_experiments\\factorial_ablation_3x3_v1\\heldout_continuous_test\\tables\\table_iv_nasa.tex",
+      "purpose": "formal-experiment",
+      "figure_groups": [
+        "paper_tables_II_III_IV"
+      ]
+    },
+    "reference/paper_tables/table_iv_nasa_formatted.csv": {
+      "bytes": 716,
+      "sha256": "ccb91db2a4cdf5759edb59f494550694576fa0db1679c48431e43839f8b53c05",
+      "source": "G:\\aecroformer_experiments\\factorial_ablation_3x3_v1\\heldout_continuous_test\\tables\\table_iv_nasa_formatted.csv",
+      "purpose": "formal-experiment",
+      "figure_groups": [
+        "paper_tables_II_III_IV"
+      ]
+    },
+    "reference/paper_tables/table_iv_nasa_mean_std.csv": {
+      "bytes": 1706,
+      "sha256": "7c526598ce79bf13debb02e40fbb917d858a8d89926161ab02729554486b2d33",
+      "source": "G:\\aecroformer_experiments\\factorial_ablation_3x3_v1\\heldout_continuous_test\\tables\\table_iv_nasa_mean_std.csv",
+      "purpose": "formal-experiment",
+      "figure_groups": [
+        "paper_tables_II_III_IV"
+      ]
+    },
+    "reference/paper_tables/TGRS.docx": {
+      "bytes": 8094132,
+      "sha256": "f6efbf728bdfa27a51fd89cea4cd31d8ef75fb2640aea1f37b45d8bb842e3ee0",
+      "source": "G:\\aecroformer_experiments\\factorial_ablation_3x3_v1\\heldout_continuous_test\\tables\\TGRS.docx",
+      "purpose": "formal-experiment",
+      "figure_groups": [
+        "paper_tables_II_III_IV"
+      ]
+    },
+    "reference/paper_profiles/profile_line_box_20130201_caption.md": {
+      "bytes": 387,
+      "sha256": "cc5b9281ceab9fed52d1d57120ac9a6cb975155e96e3134ab758e516f9285e30",
+      "source": "G:\\aecroformer_experiments\\factorial_ablation_3x3_v1\\reviewer_additions_v1\\profile_figure\\profile_line_box_20130201_caption.md",
+      "purpose": "formal-experiment",
+      "figure_groups": []
+    },
+    "reference/paper_profiles/profile_line_box_20130201_metadata.json": {
+      "bytes": 2724,
+      "sha256": "72e49bd48fe29d911834d128469cd72616c9bbe12a413221de65bfdc0ee04ee7",
+      "source": "G:\\aecroformer_experiments\\factorial_ablation_3x3_v1\\reviewer_additions_v1\\profile_figure\\profile_line_box_20130201_metadata.json",
+      "purpose": "formal-experiment",
+      "figure_groups": []
+    },
+    "reference/paper_profiles/profile_line_box_20130201_source_data.csv": {
+      "bytes": 14404,
+      "sha256": "e6e723c5f03db8e8997a688665911b9f1b5e122bd5f729bbd499da19db0a4be1",
+      "source": "G:\\aecroformer_experiments\\factorial_ablation_3x3_v1\\reviewer_additions_v1\\profile_figure\\profile_line_box_20130201_source_data.csv",
+      "purpose": "formal-experiment",
+      "figure_groups": [
+        "paper_profile_P1_P6"
+      ]
+    },
+    "reference/paper_profiles/figures/profile_line_box_20130201_uncertainty.pdf": {
+      "bytes": 54444,
+      "sha256": "393204c98dc7c5dcaa77a252a1480b066377b49d5a85a47d4f8f1fa5252d080c",
+      "source": "G:\\aecroformer_experiments\\factorial_ablation_3x3_v1\\reviewer_additions_v1\\profile_figure\\figures\\profile_line_box_20130201_uncertainty.pdf",
+      "purpose": "formal-experiment",
+      "figure_groups": [
+        "paper_profile_P1_P6"
+      ]
+    },
+    "reference/paper_profiles/figures/profile_line_box_20130201_uncertainty.png": {
+      "bytes": 1166076,
+      "sha256": "9834c195a8871b3ee9ea4875987573236f3d5642d41e9d33e653f7ae6137bbe1",
+      "source": "G:\\aecroformer_experiments\\factorial_ablation_3x3_v1\\reviewer_additions_v1\\profile_figure\\figures\\profile_line_box_20130201_uncertainty.png",
+      "purpose": "formal-experiment",
+      "figure_groups": [
+        "paper_profile_P1_P6"
+      ]
+    },
+    "reference/paper_profiles/figures/profile_line_box_20130201_uncertainty.svg": {
+      "bytes": 226355,
+      "sha256": "091fe830506a1543cf7821ae95d253a68619d30525f82458731388845e4ee78b",
+      "source": "G:\\aecroformer_experiments\\factorial_ablation_3x3_v1\\reviewer_additions_v1\\profile_figure\\figures\\profile_line_box_20130201_uncertainty.svg",
+      "purpose": "formal-experiment",
+      "figure_groups": []
+    },
+    "reference/paper/Supplementary Materials.zip": {
+      "bytes": 30716509,
+      "sha256": "97eed18c1308bcb0184df3d0cf74051adb2e42ab3ae6f4b99608e104579504c3",
+      "source": "C:\\Users\\PS\\Desktop\\FS_pi_aecroformer\\Supplementary Materials.zip",
+      "purpose": "manuscript-reference",
+      "figure_groups": []
+    },
+    "reference/paper/TGRS - FULL.pdf": {
+      "bytes": 2552430,
+      "sha256": "afe2c4661373a96923c63ecf9de01b2870cbb290b64bee79286237f7bf93bb7e",
+      "source": "C:\\Users\\PS\\Desktop\\FS_pi_aecroformer\\TGRS - FULL.pdf",
+      "purpose": "manuscript-reference",
+      "figure_groups": []
+    },
+    "reference/figure_sources/day_curtain_20130201.py": {
+      "bytes": 45543,
+      "sha256": "a91052033728048a2313bd279f33947e8f07833f3996d9ba3b42f9b4e67cd645",
+      "source": "E:\\Project\\Biodistribution\\aecroformer\\portable_retrieval_fast_ori_unc\\day_curtain_20130201.py",
+      "purpose": "retrieval-source",
+      "figure_groups": [
+        "paper_day_case"
+      ]
+    },
+    "reference/figure_sources/plot_all_direct_profiles.py": {
+      "bytes": 11142,
+      "sha256": "11449f0c8b72a1ec323da7e73789316b4cd83e058a1f7667fb062b746e44ffb6",
+      "source": "E:\\Project\\Biodistribution\\aecroformer\\portable_retrieval_fast_ori_unc\\plot_all_direct_profiles.py",
+      "purpose": "retrieval-source",
+      "figure_groups": []
+    },
+    "reference/figure_sources/profile_figure.py": {
+      "bytes": 15474,
+      "sha256": "b5fc69ba95deb73f2ad2382f65edeac6c9380d9a35a60bff88d5f127956d1b5b",
+      "source": "E:\\Project\\Biodistribution\\aecroformer\\experiments\\factorial_ablation_3x3_v1\\reviewer_additions_v1\\profile_figure.py",
+      "purpose": "experiment-source",
+      "figure_groups": [
+        "paper_profile_P1_P6"
+      ]
+    }
+  }
+}

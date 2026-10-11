@@ -1,0 +1,52 @@
+{
+  "spec": {
+    "method": "UNC",
+    "train_seed": 20260721,
+    "checkpoint": {
+      "path": "G:\\aecroformer_experiments\\factorial_ablation_3x3_v1\\runs\\BAS_PHY_DYN_UNC\\train_seed_20260721\\checkpoints\\best_dynamic_val.pth",
+      "size": 34624163,
+      "mtime_ns": 1784633614605575000,
+      "sample_sha256": "6b79756cc3aae05c2395b402d8bd8ae5be1dd864fda740564c3bdc2c2cdfaaae"
+    },
+    "calibration_caches": [
+      {
+        "path": "G:\\aecroformer_experiments\\factorial_ablation_3x3_v1\\reviewer_additions_v1\\uncertainty\\calibration_cache\\calibration_seed_20261001.npz",
+        "size": 1656148,
+        "mtime_ns": 1784907096979742000,
+        "sample_sha256": "d1b3f80adcf892a7e4dbd8ab710a25a3d17e4b63454b2da463dec50a0a02abdf"
+      },
+      {
+        "path": "G:\\aecroformer_experiments\\factorial_ablation_3x3_v1\\reviewer_additions_v1\\uncertainty\\calibration_cache\\calibration_seed_20261002.npz",
+        "size": 1655950,
+        "mtime_ns": 1784907097185612400,
+        "sample_sha256": "3e15ab77e30a23ba86457f4b131922e386c269720bd467d7d35241eb59b91f86"
+      },
+      {
+        "path": "G:\\aecroformer_experiments\\factorial_ablation_3x3_v1\\reviewer_additions_v1\\uncertainty\\calibration_cache\\calibration_seed_20261003.npz",
+        "size": 1656288,
+        "mtime_ns": 1784907097335927500,
+        "sample_sha256": "a47cd027f246bd892ecae310f29080e2b883d49bf30bee9a879d7f681ae2eb2d"
+      }
+    ],
+    "temperature_min": 0.05,
+    "temperature_max": 20.0
+  },
+  "spec_hash": "3eaabd2b9e2967856baeb3e70ac2095e1c113fe10febf4202caab538c07bc159",
+  "method": "UNC",
+  "train_seed": 20260721,
+  "best_epoch": 32,
+  "parameter_order": [
+    "mr",
+    "mi",
+    "rmed",
+    "lnsigma"
+  ],
+  "temperatures": [
+    1.0546576960993241,
+    0.9994984822970483,
+    1.1805958222746098,
+    1.0187039471842587
+  ],
+  "mean_prediction_unchanged": true,
+  "created_at": "2026-07-24T15:31:38.026084+00:00"
+}

@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+build/
+dist/
+outputs/*
+!outputs/.gitkeep
+# Local release assets are distributed separately from the source repository.
+assets/luts/*.npz
+assets/luts/*.npy
+assets/models/**/*.pth
+assets/models/**/*.pkl
+

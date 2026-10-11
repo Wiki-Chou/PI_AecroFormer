@@ -1,0 +1,29 @@
+{
+  "day": "20130201",
+  "time_bin_sec": 90,
+  "z_bin_m": 75,
+  "hsrl_files": [
+    "DISCOVERAQ-HSRL2_B200_20130201_R1_F1_.h5",
+    "DISCOVERAQ-HSRL2_B200_20130201_R1_F2_.h5"
+  ],
+  "flight_ranges": {
+    "F1": {
+      "file_name": "DISCOVERAQ-HSRL2_B200_20130201_R1_F1_.h5",
+      "t_min_sec": 58023.0,
+      "t_max_sec": 68581.0,
+      "t_min_bin_sec": 57960,
+      "t_max_bin_sec": 68580
+    },
+    "F2": {
+      "file_name": "DISCOVERAQ-HSRL2_B200_20130201_R1_F2_.h5",
+      "t_min_sec": 72715.0,
+      "t_max_sec": 85758.0,
+      "t_min_bin_sec": 72630,
+      "t_max_bin_sec": 85680
+    }
+  },
+  "curtain_rows": 32488,
+  "insitu_raw_rows": 33,
+  "insitu_agg_rows": 22,
+  "insitu_lines": 6
+}

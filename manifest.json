@@ -1,0 +1,422 @@
+{
+  "schema_version": 1,
+  "release_id": "paper_numeric_v1",
+  "version": "1.0.0",
+  "inputs": {
+    "x5_order": [
+      "alpha355",
+      "beta355",
+      "alpha532",
+      "beta532",
+      "beta1064"
+    ],
+    "units": [
+      "km^-1",
+      "km^-1 sr^-1",
+      "km^-1",
+      "km^-1 sr^-1",
+      "km^-1 sr^-1"
+    ]
+  },
+  "shared": {
+    "fast_lut_npz": "assets/luts/fast_lut_mi_zero_log_501.npz",
+    "ultrafine_lut_npz": "assets/luts/ultrafine_mie_lut.npz"
+  },
+  "models": {
+    "ORI": {
+      "20260721": {
+        "checkpoint": "assets/models/ORI/train_seed_20260721/best_dynamic_val.pth",
+        "scaler_x": "assets/models/ORI/train_seed_20260721/scaler_X.pkl",
+        "scaler_y": "assets/models/ORI/train_seed_20260721/scaler_y.pkl"
+      },
+      "20260722": {
+        "checkpoint": "assets/models/ORI/train_seed_20260722/best_dynamic_val.pth",
+        "scaler_x": "assets/models/ORI/train_seed_20260722/scaler_X.pkl",
+        "scaler_y": "assets/models/ORI/train_seed_20260722/scaler_y.pkl"
+      },
+      "20260723": {
+        "checkpoint": "assets/models/ORI/train_seed_20260723/best_dynamic_val.pth",
+        "scaler_x": "assets/models/ORI/train_seed_20260723/scaler_X.pkl",
+        "scaler_y": "assets/models/ORI/train_seed_20260723/scaler_y.pkl"
+      }
+    },
+    "UNC": {
+      "20260721": {
+        "checkpoint": "assets/models/UNC/train_seed_20260721/best_dynamic_val.pth",
+        "scaler_x": "assets/models/UNC/train_seed_20260721/scaler_X.pkl",
+        "scaler_y": "assets/models/UNC/train_seed_20260721/scaler_y.pkl",
+        "temperature": "assets/models/UNC/train_seed_20260721/temperature.json"
+      },
+      "20260722": {
+        "checkpoint": "assets/models/UNC/train_seed_20260722/best_dynamic_val.pth",
+        "scaler_x": "assets/models/UNC/train_seed_20260722/scaler_X.pkl",
+        "scaler_y": "assets/models/UNC/train_seed_20260722/scaler_y.pkl",
+        "temperature": "assets/models/UNC/train_seed_20260722/temperature.json"
+      },
+      "20260723": {
+        "checkpoint": "assets/models/UNC/train_seed_20260723/best_dynamic_val.pth",
+        "scaler_x": "assets/models/UNC/train_seed_20260723/scaler_X.pkl",
+        "scaler_y": "assets/models/UNC/train_seed_20260723/scaler_y.pkl",
+        "temperature": "assets/models/UNC/train_seed_20260723/temperature.json"
+      }
+    }
+  },
+  "modes": {
+    "FAST": {
+      "fast_lut_npz": "assets/luts/fast_lut_mi_zero_log_501.npz",
+      "nknn_fraction": 0.01,
+      "nknn_min": 64,
+      "n_rf_trees": 500,
+      "omega": 0.3,
+      "seed": 20260412,
+      "feature_norm": "bank_std",
+      "vt_recover_method": "median_ratio",
+      "vt_scale_clip": [
+        1e-06,
+        1000000.0
+      ],
+      "expected_rows": 6291558,
+      "group_rng_reset": true
+    },
+    "ORI": {
+      "feature_mode": "feat5",
+      "checkpoint": "assets/models/ORI/train_seed_20260721/best_dynamic_val.pth",
+      "scaler_x": "assets/models/ORI/train_seed_20260721/scaler_X.pkl",
+      "scaler_y": "assets/models/ORI/train_seed_20260721/scaler_y.pkl"
+    },
+    "UNC": {
+      "feature_mode": "feat11",
+      "checkpoint": "assets/models/UNC/train_seed_20260721/best_dynamic_val.pth",
+      "scaler_x": "assets/models/UNC/train_seed_20260721/scaler_X.pkl",
+      "scaler_y": "assets/models/UNC/train_seed_20260721/scaler_y.pkl",
+      "temperature": "assets/models/UNC/train_seed_20260721/temperature.json"
+    }
+  },
+  "synthetic_baseline": {
+    "bank": "assets/luts/fast_bank_subset_500000_seed20260415.npz",
+    "seed": 20260415,
+    "bank_size": 500000,
+    "k": 64,
+    "feature_norm": "bank_std",
+    "distance_weighted": true,
+    "distance_eps": 1e-08
+  },
+  "runtime": {
+    "device": "cpu",
+    "threads": 2,
+    "workers": 1,
+    "batch_size": 4096,
+    "mc_samples": 256,
+    "mc_seed": 20261020,
+    "unc_logvar_min": -20.0,
+    "unc_logvar_max": 10.0
+  },
+  "assets": {
+    "assets/luts/fast_bank_subset_500000_seed20260415.meta.json": {
+      "bytes": 1041,
+      "sha256": "cb8cd464b8f095eee16bafa16340f673a8feec288466b10ec82b11aad8244924",
+      "source": "reference/experiments/factorial_ablation_3x3_v1/heldout_continuous_test/lut_baseline_original",
+      "purpose": "synthetic-baseline-provenance",
+      "figure_groups": [
+        "paper_tables_II_III_IV"
+      ]
+    },
+    "assets/luts/fast_bank_subset_500000_seed20260415.npz": {
+      "bytes": 32440235,
+      "sha256": "bc821f8e1fa823f961d395d388014dca84629c0ef1e99acc58d17cd5ada0ce62",
+      "source": "reference/experiments/factorial_ablation_3x3_v1/heldout_continuous_test/lut_baseline_original",
+      "purpose": "synthetic-baseline-bank",
+      "figure_groups": [
+        "paper_tables_II_III_IV"
+      ]
+    },
+    "assets/luts/fast_lut_mi_zero_log_501.meta.json": {
+      "bytes": 967,
+      "sha256": "c384d9c31f804ca5578cb4b9de2d88a9043904cafd6753e946aa7710d9aa719c",
+      "source": "E:\\Project\\Biodistribution\\aecroformer\\validation\\fast_vali\\cache\\fast_lut_mi_zero_log_501.meta.json",
+      "purpose": "lut-provenance",
+      "figure_groups": [
+        "paper_profile_P1_P6",
+        "paper_day_case",
+        "paper_tables_II_III_IV",
+        "new_profile_validation"
+      ]
+    },
+    "assets/luts/fast_lut_mi_zero_log_501.npz": {
+      "bytes": 358801828,
+      "sha256": "997821678f8df7ba894af74aa6ae395fd20ad6b0fed3b0a5f5f377246f96361b",
+      "source": "E:\\Project\\Biodistribution\\aecroformer\\portable_retrieval_fast_ori_unc\\assets\\luts\\fast_lut_mi_zero_log_501.npz",
+      "purpose": "full-fast-lut",
+      "figure_groups": [
+        "paper_profile_P1_P6",
+        "paper_day_case",
+        "paper_tables_II_III_IV",
+        "new_profile_validation"
+      ]
+    },
+    "assets/luts/ultrafine_mie_lut.npz": {
+      "bytes": 10033785838,
+      "sha256": "6850089362cb8fcd0f6e14705def98239b14e7d38f423b0aaf773b9425e37c6c",
+      "source": "E:\\Project\\Biodistribution\\aecroformer\\portable_retrieval_fast_ori_unc\\assets\\luts\\ultrafine_mie_lut.npz",
+      "purpose": "forward-lut",
+      "figure_groups": [
+        "paper_profile_P1_P6",
+        "paper_day_case",
+        "paper_tables_II_III_IV",
+        "new_profile_validation"
+      ]
+    },
+    "assets/models/ORI/train_seed_20260721/best_dynamic_val.pth": {
+      "bytes": 34584075,
+      "sha256": "51db95c83d0514415b8cffe04b4a1be90ffde9dade89ffb9e539f6b5b7b71632",
+      "source": "G:\\aecroformer_experiments\\factorial_ablation_3x3_v1\\runs\\ORI\\train_seed_20260721\\checkpoints\\best_dynamic_val.pth",
+      "purpose": "release-checkpoint",
+      "figure_groups": [
+        "paper_profile_P1_P6",
+        "paper_day_case",
+        "paper_tables_II_III_IV",
+        "new_profile_validation"
+      ]
+    },
+    "assets/models/ORI/train_seed_20260721/scaler_X.pkl": {
+      "bytes": 569,
+      "sha256": "0eadccf8024c2bc1e0b59d22c8d3b604e62f6f63ee8027c709dbb9af828de467",
+      "source": "G:\\aecroformer_experiments\\factorial_ablation_3x3_v1\\runs\\ORI\\train_seed_20260721\\scalers\\scaler_X.pkl",
+      "purpose": "release-scaler",
+      "figure_groups": [
+        "paper_profile_P1_P6",
+        "paper_day_case",
+        "paper_tables_II_III_IV",
+        "new_profile_validation"
+      ]
+    },
+    "assets/models/ORI/train_seed_20260721/scaler_y.pkl": {
+      "bytes": 545,
+      "sha256": "d43b955d365811ad14a064fad438e911f60ff77acad19b0e09d72a3e640097f6",
+      "source": "G:\\aecroformer_experiments\\factorial_ablation_3x3_v1\\runs\\ORI\\train_seed_20260721\\scalers\\scaler_y.pkl",
+      "purpose": "release-scaler",
+      "figure_groups": [
+        "paper_profile_P1_P6",
+        "paper_day_case",
+        "paper_tables_II_III_IV",
+        "new_profile_validation"
+      ]
+    },
+    "assets/models/ORI/train_seed_20260722/best_dynamic_val.pth": {
+      "bytes": 34584139,
+      "sha256": "c740aa45d38a4d5329399afb1568a6abe181524a0ac17ecbad98cf109baf1390",
+      "source": "G:\\aecroformer_experiments\\factorial_ablation_3x3_v1\\runs\\ORI\\train_seed_20260722\\checkpoints\\best_dynamic_val.pth",
+      "purpose": "release-checkpoint",
+      "figure_groups": [
+        "paper_profile_P1_P6",
+        "paper_day_case",
+        "paper_tables_II_III_IV",
+        "new_profile_validation"
+      ]
+    },
+    "assets/models/ORI/train_seed_20260722/scaler_X.pkl": {
+      "bytes": 569,
+      "sha256": "0eadccf8024c2bc1e0b59d22c8d3b604e62f6f63ee8027c709dbb9af828de467",
+      "source": "G:\\aecroformer_experiments\\factorial_ablation_3x3_v1\\runs\\ORI\\train_seed_20260722\\scalers\\scaler_X.pkl",
+      "purpose": "release-scaler",
+      "figure_groups": [
+        "paper_profile_P1_P6",
+        "paper_day_case",
+        "paper_tables_II_III_IV",
+        "new_profile_validation"
+      ]
+    },
+    "assets/models/ORI/train_seed_20260722/scaler_y.pkl": {
+      "bytes": 545,
+      "sha256": "d43b955d365811ad14a064fad438e911f60ff77acad19b0e09d72a3e640097f6",
+      "source": "G:\\aecroformer_experiments\\factorial_ablation_3x3_v1\\runs\\ORI\\train_seed_20260722\\scalers\\scaler_y.pkl",
+      "purpose": "release-scaler",
+      "figure_groups": [
+        "paper_profile_P1_P6",
+        "paper_day_case",
+        "paper_tables_II_III_IV",
+        "new_profile_validation"
+      ]
+    },
+    "assets/models/ORI/train_seed_20260723/best_dynamic_val.pth": {
+      "bytes": 34584139,
+      "sha256": "7a15f600c3717ffc00ca9ad05c481a674b75a3c4424634a33d1ffb59e4fd1d17",
+      "source": "G:\\aecroformer_experiments\\factorial_ablation_3x3_v1\\runs\\ORI\\train_seed_20260723\\checkpoints\\best_dynamic_val.pth",
+      "purpose": "release-checkpoint",
+      "figure_groups": [
+        "paper_profile_P1_P6",
+        "paper_day_case",
+        "paper_tables_II_III_IV",
+        "new_profile_validation"
+      ]
+    },
+    "assets/models/ORI/train_seed_20260723/scaler_X.pkl": {
+      "bytes": 569,
+      "sha256": "0eadccf8024c2bc1e0b59d22c8d3b604e62f6f63ee8027c709dbb9af828de467",
+      "source": "G:\\aecroformer_experiments\\factorial_ablation_3x3_v1\\runs\\ORI\\train_seed_20260723\\scalers\\scaler_X.pkl",
+      "purpose": "release-scaler",
+      "figure_groups": [
+        "paper_profile_P1_P6",
+        "paper_day_case",
+        "paper_tables_II_III_IV",
+        "new_profile_validation"
+      ]
+    },
+    "assets/models/ORI/train_seed_20260723/scaler_y.pkl": {
+      "bytes": 545,
+      "sha256": "d43b955d365811ad14a064fad438e911f60ff77acad19b0e09d72a3e640097f6",
+      "source": "G:\\aecroformer_experiments\\factorial_ablation_3x3_v1\\runs\\ORI\\train_seed_20260723\\scalers\\scaler_y.pkl",
+      "purpose": "release-scaler",
+      "figure_groups": [
+        "paper_profile_P1_P6",
+        "paper_day_case",
+        "paper_tables_II_III_IV",
+        "new_profile_validation"
+      ]
+    },
+    "assets/models/UNC/train_seed_20260721/best_dynamic_val.pth": {
+      "bytes": 34624163,
+      "sha256": "8b756b8e62790f3c2ef3aae63c193e10c1057619a69bc2c0c28b8ae553be0fc5",
+      "source": "G:\\aecroformer_experiments\\factorial_ablation_3x3_v1\\runs\\BAS_PHY_DYN_UNC\\train_seed_20260721\\checkpoints\\best_dynamic_val.pth",
+      "purpose": "release-checkpoint",
+      "figure_groups": [
+        "paper_profile_P1_P6",
+        "paper_day_case",
+        "paper_tables_II_III_IV",
+        "new_profile_validation"
+      ]
+    },
+    "assets/models/UNC/train_seed_20260721/scaler_X.pkl": {
+      "bytes": 713,
+      "sha256": "006bf9f82c98d37c76a7bec29dcc3d8d4fea074cb7ca758946794d5a0a6a68ab",
+      "source": "G:\\aecroformer_experiments\\factorial_ablation_3x3_v1\\runs\\BAS_PHY_DYN_UNC\\train_seed_20260721\\scalers\\scaler_X.pkl",
+      "purpose": "release-scaler",
+      "figure_groups": [
+        "paper_profile_P1_P6",
+        "paper_day_case",
+        "paper_tables_II_III_IV",
+        "new_profile_validation"
+      ]
+    },
+    "assets/models/UNC/train_seed_20260721/scaler_y.pkl": {
+      "bytes": 545,
+      "sha256": "d43b955d365811ad14a064fad438e911f60ff77acad19b0e09d72a3e640097f6",
+      "source": "G:\\aecroformer_experiments\\factorial_ablation_3x3_v1\\runs\\BAS_PHY_DYN_UNC\\train_seed_20260721\\scalers\\scaler_y.pkl",
+      "purpose": "release-scaler",
+      "figure_groups": [
+        "paper_profile_P1_P6",
+        "paper_day_case",
+        "paper_tables_II_III_IV",
+        "new_profile_validation"
+      ]
+    },
+    "assets/models/UNC/train_seed_20260721/temperature.json": {
+      "bytes": 1977,
+      "sha256": "5ab04974b52ed6f35900e134d6218f663a4e0967eba0b2ebed24a27605645db8",
+      "source": "G:\\aecroformer_experiments\\factorial_ablation_3x3_v1\\reviewer_additions_v1\\uncertainty\\temperatures\\UNC\\train_seed_20260721.json",
+      "purpose": "frozen-calibration",
+      "figure_groups": [
+        "paper_profile_P1_P6",
+        "paper_day_case",
+        "paper_tables_II_III_IV",
+        "new_profile_validation"
+      ]
+    },
+    "assets/models/UNC/train_seed_20260722/best_dynamic_val.pth": {
+      "bytes": 34624163,
+      "sha256": "c9ef9984791d37bad9e22ac3bc21b6989cd100d5e0cf34cf8329365afee55600",
+      "source": "G:\\aecroformer_experiments\\factorial_ablation_3x3_v1\\runs\\BAS_PHY_DYN_UNC\\train_seed_20260722\\checkpoints\\best_dynamic_val.pth",
+      "purpose": "release-checkpoint",
+      "figure_groups": [
+        "paper_profile_P1_P6",
+        "paper_day_case",
+        "paper_tables_II_III_IV",
+        "new_profile_validation"
+      ]
+    },
+    "assets/models/UNC/train_seed_20260722/scaler_X.pkl": {
+      "bytes": 713,
+      "sha256": "006bf9f82c98d37c76a7bec29dcc3d8d4fea074cb7ca758946794d5a0a6a68ab",
+      "source": "G:\\aecroformer_experiments\\factorial_ablation_3x3_v1\\runs\\BAS_PHY_DYN_UNC\\train_seed_20260722\\scalers\\scaler_X.pkl",
+      "purpose": "release-scaler",
+      "figure_groups": [
+        "paper_profile_P1_P6",
+        "paper_day_case",
+        "paper_tables_II_III_IV",
+        "new_profile_validation"
+      ]
+    },
+    "assets/models/UNC/train_seed_20260722/scaler_y.pkl": {
+      "bytes": 545,
+      "sha256": "d43b955d365811ad14a064fad438e911f60ff77acad19b0e09d72a3e640097f6",
+      "source": "G:\\aecroformer_experiments\\factorial_ablation_3x3_v1\\runs\\BAS_PHY_DYN_UNC\\train_seed_20260722\\scalers\\scaler_y.pkl",
+      "purpose": "release-scaler",
+      "figure_groups": [
+        "paper_profile_P1_P6",
+        "paper_day_case",
+        "paper_tables_II_III_IV",
+        "new_profile_validation"
+      ]
+    },
+    "assets/models/UNC/train_seed_20260722/temperature.json": {
+      "bytes": 1976,
+      "sha256": "6a052048ffa71e0ff59f1bb8714c83d10828156d2217d6ac66ced76f35412de1",
+      "source": "G:\\aecroformer_experiments\\factorial_ablation_3x3_v1\\reviewer_additions_v1\\uncertainty\\temperatures\\UNC\\train_seed_20260722.json",
+      "purpose": "frozen-calibration",
+      "figure_groups": [
+        "paper_profile_P1_P6",
+        "paper_day_case",
+        "paper_tables_II_III_IV",
+        "new_profile_validation"
+      ]
+    },
+    "assets/models/UNC/train_seed_20260723/best_dynamic_val.pth": {
+      "bytes": 34624163,
+      "sha256": "14d415cef0a7c85b19f01445698505e7717a71d737e8c9cc57c48aaaef579ed5",
+      "source": "G:\\aecroformer_experiments\\factorial_ablation_3x3_v1\\runs\\BAS_PHY_DYN_UNC\\train_seed_20260723\\checkpoints\\best_dynamic_val.pth",
+      "purpose": "release-checkpoint",
+      "figure_groups": [
+        "paper_profile_P1_P6",
+        "paper_day_case",
+        "paper_tables_II_III_IV",
+        "new_profile_validation"
+      ]
+    },
+    "assets/models/UNC/train_seed_20260723/scaler_X.pkl": {
+      "bytes": 713,
+      "sha256": "006bf9f82c98d37c76a7bec29dcc3d8d4fea074cb7ca758946794d5a0a6a68ab",
+      "source": "G:\\aecroformer_experiments\\factorial_ablation_3x3_v1\\runs\\BAS_PHY_DYN_UNC\\train_seed_20260723\\scalers\\scaler_X.pkl",
+      "purpose": "release-scaler",
+      "figure_groups": [
+        "paper_profile_P1_P6",
+        "paper_day_case",
+        "paper_tables_II_III_IV",
+        "new_profile_validation"
+      ]
+    },
+    "assets/models/UNC/train_seed_20260723/scaler_y.pkl": {
+      "bytes": 545,
+      "sha256": "d43b955d365811ad14a064fad438e911f60ff77acad19b0e09d72a3e640097f6",
+      "source": "G:\\aecroformer_experiments\\factorial_ablation_3x3_v1\\runs\\BAS_PHY_DYN_UNC\\train_seed_20260723\\scalers\\scaler_y.pkl",
+      "purpose": "release-scaler",
+      "figure_groups": [
+        "paper_profile_P1_P6",
+        "paper_day_case",
+        "paper_tables_II_III_IV",
+        "new_profile_validation"
+      ]
+    },
+    "assets/models/UNC/train_seed_20260723/temperature.json": {
+      "bytes": 1976,
+      "sha256": "8e09c1eeb9798d906be49a665b88b39a5e5a974472d323e6941d7091a5091b8a",
+      "source": "G:\\aecroformer_experiments\\factorial_ablation_3x3_v1\\reviewer_additions_v1\\uncertainty\\temperatures\\UNC\\train_seed_20260723.json",
+      "purpose": "frozen-calibration",
+      "figure_groups": [
+        "paper_profile_P1_P6",
+        "paper_day_case",
+        "paper_tables_II_III_IV",
+        "new_profile_validation"
+      ]
+    }
+  }
+}

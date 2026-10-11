@@ -1,0 +1,48 @@
+{
+  "paper_profile_P1_P6": {
+    "description": "2013-02-01 P1-P6 calibrated uncertainty profiles and error boxes",
+    "truth_basis": "re_ambient_kappa",
+    "data": [
+      "reference/paper_profiles/profile_line_box_20130201_source_data.csv",
+      "examples/case_20130201/profile_index_mapping_20130201.csv"
+    ],
+    "figures": [
+      "examples/case_20130201/profile_line_box_20130201.png",
+      "examples/case_20130201/profile_line_box_20130201.pdf",
+      "reference/paper_profiles/figures/profile_line_box_20130201_uncertainty.png",
+      "reference/paper_profiles/figures/profile_line_box_20130201_uncertainty.pdf"
+    ],
+    "code": [
+      "src/pi_aecroformer/paper_profiles.py",
+      "examples/redraw_paper_profiles.py"
+    ],
+    "original_source": "reference/figure_sources/profile_figure.py",
+    "visible_interval": "calibrated predictive 68% (q16-q84)",
+    "interval_data": "examples/case_20130201/profile_line_box_20130201_source_data.csv"
+  },
+  "paper_day_case": {
+    "description": "2013-02-01 curtains, collocations and P1-P6 mapping; frozen figures and intermediates",
+    "truth_basis": "kappa",
+    "directory": "examples/case_20130201",
+    "data": [
+      "examples/case_20130201/curtain_90s_75m.parquet",
+      "examples/case_20130201/retrieval_90s_75m.parquet",
+      "examples/case_20130201/insitu_overlay_90s_75m.parquet"
+    ],
+    "original_source": "reference/figure_sources/day_curtain_20130201.py"
+  },
+  "paper_tables_II_III_IV": {
+    "description": "Individual-seed statistics, not metrics of ensemble predictions",
+    "directory": "reference/paper_tables",
+    "truth_basis_NASA": "legacy re_ambient",
+    "developer_code": "src/aecroformer_training/reproduction.py"
+  },
+  "new_profile_validation": {
+    "description": "Small CPU smoke, new predictions and source data, not a full paper evaluation",
+    "directory": "reference/acceptance/smoke",
+    "code": [
+      "src/pi_aecroformer/plotting.py",
+      "examples/nasa_profile.py"
+    ]
+  }
+}

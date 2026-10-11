@@ -1,0 +1,54 @@
+{
+  "input": {
+    "curtain_parquet": "e:\\Project\\Biodistribution\\aecroformer\\portable_retrieval_fast_ori_unc\\outputs\\daycase_20130201_paperlike_v1\\curtain_90s_75m.parquet",
+    "n_samples": 32
+  },
+  "settings": {
+    "repeats": 2,
+    "warmup": 1,
+    "max_samples": 32,
+    "seed": 20260522
+  },
+  "cuda_available": true,
+  "rows": [
+    {
+      "mode": "FAST",
+      "device": "cpu",
+      "n_samples": 32,
+      "repeats": 2,
+      "warmup": 1,
+      "total_mean_s": 62.319289649953134,
+      "total_median_s": 62.319289649953134,
+      "total_std_s": 0.028780349995940924,
+      "per_sample_mean_ms": 1947.4778015610354,
+      "throughput_samples_per_s": 0.5134846719168928,
+      "scope": "x5_to_[mr,mi,D_mode,sigma,r_eff] (no Mie, no N)"
+    },
+    {
+      "mode": "UNC",
+      "device": "cpu",
+      "n_samples": 32,
+      "repeats": 2,
+      "warmup": 1,
+      "total_mean_s": 0.0010642499546520412,
+      "total_median_s": 0.0010642499546520412,
+      "total_std_s": 7.004995131865144e-05,
+      "per_sample_mean_ms": 0.03325781108287629,
+      "throughput_samples_per_s": 30068.12437258921,
+      "scope": "x5_to_[mr,mi,D_mode,sigma,r_eff] (no Mie, no N)"
+    },
+    {
+      "mode": "UNC",
+      "device": "cuda",
+      "n_samples": 32,
+      "repeats": 2,
+      "warmup": 1,
+      "total_mean_s": 0.0014818999916315079,
+      "total_median_s": 0.0014818999916315079,
+      "total_std_s": 0.00014300004113465548,
+      "per_sample_mean_ms": 0.04630937473848462,
+      "throughput_samples_per_s": 21593.899845271866,
+      "scope": "x5_to_[mr,mi,D_mode,sigma,r_eff] (no Mie, no N)"
+    }
+  ]
+}

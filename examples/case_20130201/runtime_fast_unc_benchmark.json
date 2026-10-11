@@ -1,0 +1,51 @@
+{
+  "input": {
+    "curtain_parquet": "e:\\Project\\Biodistribution\\aecroformer\\portable_retrieval_fast_ori_unc\\outputs\\daycase_20130201_paperlike_v1\\curtain_90s_75m.parquet",
+    "n_samples_after_filter": 64
+  },
+  "settings": {
+    "repeats": 3,
+    "warmup": 1,
+    "max_samples": 64,
+    "seed": 20260522
+  },
+  "results": [
+    {
+      "mode": "FAST",
+      "device": "cpu",
+      "n_samples": 64,
+      "repeats": 3,
+      "warmup": 1,
+      "total_mean_s": 126.32995199998065,
+      "total_median_s": 126.2403710000217,
+      "total_std_s": 0.8109991231937823,
+      "per_sample_mean_ms": 1973.9054999996977,
+      "throughput_samples_per_s": 0.5066098655686168
+    },
+    {
+      "mode": "UNC",
+      "device": "cpu",
+      "n_samples": 64,
+      "repeats": 3,
+      "warmup": 1,
+      "total_mean_s": 3.236868966681262,
+      "total_median_s": 3.243874599924311,
+      "total_std_s": 0.011480399858361051,
+      "per_sample_mean_ms": 50.57607760439472,
+      "throughput_samples_per_s": 19.772193641072448
+    },
+    {
+      "mode": "UNC",
+      "device": "cuda",
+      "n_samples": 64,
+      "repeats": 3,
+      "warmup": 1,
+      "total_mean_s": 3.2077012000760683,
+      "total_median_s": 3.197694900096394,
+      "total_std_s": 0.015526741487150181,
+      "per_sample_mean_ms": 50.12033125118857,
+      "throughput_samples_per_s": 19.951983058298037
+    }
+  ],
+  "cuda_available": true
+}
